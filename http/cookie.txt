@@ -1,0 +1,15 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.cmall.com	TRUE	/	FALSE	1517790848	User_code	0
+.cmall.com	TRUE	/	FALSE	1517790848	User_id	2199587
+.cmall.com	TRUE	/	FALSE	1517790848	enshrines_key	0
+.cmall.com	TRUE	/	FALSE	1517790849	iconUrl	"https://image.cmall.com/imgsrv/diyrelease/2199587/150365848760598144.jpg"
+.cmall.com	TRUE	/	FALSE	1517790848	location	%E4%B8%AD%E6%96%87
+.cmall.com	TRUE	/	FALSE	1517790848	loginAccount	18521035133
+.cmall.com	TRUE	/	FALSE	1517790848	nickName	%E6%9C%89%E4%BA%9B%E5%B0%8F%E7%8A%80%E5%88%A9
+.cmall.com	TRUE	/	FALSE	1517790848	regional	CN
+.cmall.com	TRUE	/	FALSE	1517790848	roleId	2
+.cmall.com	TRUE	/	FALSE	1517790848	toKen	2c569cd880f944a589534b6fd6b
+android.cmall.com	FALSE	/memberSite	FALSE		JSESSIONID	BE31778BA1CA6C69A2A4BB5F23F50D1D

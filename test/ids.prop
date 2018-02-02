@@ -1,0 +1,6 @@
+[login]
+user = com.jiuai:id/et_phoneNumber
+pwd = com.jiuai:id/et_password
+
+[logout]
+logoutId = btn_loginout

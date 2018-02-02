@@ -1,0 +1,54 @@
+{
+    svgModelImgVo: [
+        {
+            id: "bg_xA0_", 
+            isMaterial: 0, 
+            height: 2500, 
+            imgFlag: 0, 
+            width: 2000, 
+            matrix: "", 
+            href: "stag/model/2D/goodsSvgTemplate/20171124031119/3361/1/858A1FC6.jpg", 
+            url: "stag/model/2D/goodsSvgTemplate/20171124031119/3361/1/858A1FC6.jpg"
+        }, 
+        {
+            id: "p-1_xA0_", 
+            isMaterial: 0, 
+            height: 524, 
+            imgFlag: 0, 
+            width: 388, 
+            matrix: "matrix(1 0 0 1 828 1075)", 
+            href: "stag/model/2D/goodsSvgTemplate/20171124031119/3361/1/858A1FCA.png", 
+            url: "stag/model/2D/goodsSvgTemplate/20171124031119/3361/1/858A1FCA.png", 
+            maskX: "828", 
+            maskY: "1075"
+        }, 
+        {
+            id: "d-1_xA0_", 
+            isMaterial: 0, 
+            height: 100, 
+            imgFlag: 0, 
+            width: 388, 
+            matrix: "matrix(1 0 0 1 828 1611)", 
+            href: "stag/model/2D/goodsSvgTemplate/20171124031119/3361/1/858A1FCE.png", 
+            url: "stag/model/2D/goodsSvgTemplate/20171124031119/3361/1/858A1FCE.png", 
+            maskX: "828", 
+            maskY: "1611"
+        }
+    ], 
+    svgImgVo: [
+        {
+            id: "z-1_xA0_", 
+            isMaterial: 0, 
+            height: 524, 
+            imgFlag: 1, 
+            width: 388, 
+            matrix: "matrix(1 0 0 1 828 1075)", 
+            isSuit: "N", 
+            href: "stag/model/2D/goodsSvgTemplate/20171124031119/3361/1/858A1FCD.png", 
+            url: "stag/model/2D/goodsSvgTemplate/20171124031119/3361/1/858A1FCD.png", 
+            maskX: "828", 
+            maskY: "1075"
+        }
+    ], 
+    svgTextVo: [ ]
+}

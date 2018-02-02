@@ -1,0 +1,6 @@
+[login]
+user = com.tude.android/et_phoneNumber
+pwd = com.tude.android/et_password
+
+[logout]
+logoutId = com.tude.android/btn_loginout
