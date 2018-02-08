@@ -70,10 +70,10 @@ print(id(new_list2))
 
 #第三种方法：
 new_list3 = copy.copy(old_list) #浅拷贝
-print(id(new_list3))
+print("copy:",id(new_list3),id(old_list))
 
 new_list4 = copy.deepcopy(old_list) #深拷贝
-print(id(new_list4))
+print("deepcopy:",id(new_list4),id(old_list))
 
 """
 6、如何随机获取列表中的某个元素

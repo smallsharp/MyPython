@@ -7,7 +7,7 @@ print("字典的基本用法")
 """
 
 a = {'Tom': 8, 'Jerry': 7}
-print(a['Tom'])             # 8
+print(a['Tom'])             # 获取指定键 的 值
 
 b = dict(Tom=8, Jerry=7)    # 一种字符串作为键更方便的初始化方式
 print(b['Tom'])             # 8
