@@ -3,7 +3,7 @@ import os
 
 window = tk.Tk()
 window.title("my window")
-window.geometry("400x200")
+window.geometry("500x300")
 
 # 创建输入框entry，用户输入任何内容都显示为*
 # e = tk.Entry(window, show='*')
@@ -31,6 +31,7 @@ b1.pack()
 b2 = tk.Button(window, text="insert2", width=15, height=2,command=insert_end)
 b2.pack()
 window.mainloop()
+window.quit()
 
 
 

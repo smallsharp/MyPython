@@ -6,10 +6,8 @@ import os
 def init_window():
     root = Tk()
     root.title("Tkinter")
-    # 窗口大小
-    width, height = 600, 600
     # 窗口居中显示
-    root.geometry('%dx%d+%d+%d' % (width, height, (root.winfo_screenwidth() - width) / 2, (root.winfo_screenheight() - height) / 2))
+    root.geometry("400x300")
 
     button1 = Button(root, text="Button1", command=insert_one)
     button1.pack()
