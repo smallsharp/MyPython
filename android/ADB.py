@@ -115,8 +115,6 @@ def totalCpuTime(devices):
 '''
 每一个进程快照
 '''
-
-
 def processCpuTime(pid, devices):
     '''
 

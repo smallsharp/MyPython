@@ -5,11 +5,11 @@ Set 最主要的功能就是寻找一个句子或者一个 list 当中不同的�
 """
 
 char_list = ['a', 'new', 'c', 'c', 'd', 'd', 'd']
-sentence = 'Welcome Back to This Tutorial'
 
 print(set(char_list))
 # {'b', 'd', 'a', 'c'}
 
+sentence = 'Welcome Back to This Tutorial'
 print(set(sentence))
 # {'l', 'm', 'a', 'c', 't', 'r', 's', ' ', 'o', 'W', 'T', 'B', 'i', 'e', 'u', 'h', 'k'}
 
@@ -40,8 +40,7 @@ print(unique_char)
 # set()
 
 
-"""
-们还能进行一些筛选操作, 比如对比另一个东西, 看看原来的 set 里有没有和他不同的 (difference). 或者对比另一个东西, 看看 set 里有没有相同的 (intersection).
+"""筛选操作, 比如对比另一个东西, 看看原来的 set 里有没有和他不同的 (difference). 或者对比另一个东西, 看看 set 里有没有相同的 (intersection).
 """
 unique_char = set(char_list)
 print(unique_char.difference({'a', 'e', 'i'}))

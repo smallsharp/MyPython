@@ -1,0 +1,56 @@
+Applications Memory Usage (kB):
+Uptime: 26533967 Realtime: 176029511
+
+** MEMINFO in pid 15003 [com.tude.android] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap    25173    23916        0        0    60416    44353    16062
+  Dalvik Heap    17442    16684        0        0    27751    26972      779
+ Dalvik Other     2960     2952        0        0                           
+        Stack     1308     1308        0        0                           
+       Ashmem      160      128        0        0                           
+    Other dev        9        0        8        0                           
+     .so mmap    16743     2048    11516      176                           
+    .apk mmap     5890       96     5356        0                           
+    .ttf mmap      136        0      128        0                           
+    .dex mmap    26320       16    26304        0                           
+    .oat mmap     6392        0     2700        0                           
+    .art mmap     2847     1552      396        0                           
+   Other mmap     1807        8     1420        0                           
+    GL mtrack     5780     5780        0        0                           
+      Unknown    33883    33876        0        0                           
+        TOTAL   146850    88364    47828      176    88167    71325    16841
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:    18632
+         Native Heap:    23916
+                Code:    48164
+               Stack:     1308
+            Graphics:     5780
+       Private Other:    38392
+              System:    10658
+ 
+               TOTAL:   146850      TOTAL SWAP (KB):      176
+ 
+ Objects
+               Views:       78         ViewRootImpl:        1
+         AppContexts:        5           Activities:        2
+              Assets:        6        AssetManagers:        4
+       Local Binders:       29        Proxy Binders:       25
+       Parcel memory:       20         Parcel count:       82
+    Death Recipients:        1      OpenSSL Sockets:        3
+ 
+ SQL
+         MEMORY_USED:      361
+  PAGECACHE_OVERFLOW:       91          MALLOC_SIZE:       62
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       28            500       25/52/25  /data/user/0/com.tude.android/databases/tes_db
+         4       44             77       18/36/11  /data/user/0/com.tude.android/databases/beacon_tbs_db
+ 
+ Asset Allocations
+    zip:/data/user/0/com.tencent.mm/app_tbs/core_share/res.apk:/resources.arsc: 90K

@@ -5,6 +5,10 @@
 '''
 import re
 
+"""
+实现匹配出：Pillow001_3D
+"""
+
 modelpath = 'stag/model/upload/Pillow001_3D.zip?v1505444026044'
 # match = re.search(r'(\S*/)?(\w+)', modelpath)
 

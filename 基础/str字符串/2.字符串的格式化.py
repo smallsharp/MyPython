@@ -1,13 +1,26 @@
 #coding=utf-8
 
+print("使用formate格式化的三种常见用法")
 
-# 按顺序格式化字符串
+"""
+例1.按顺序格式化字符串
+"""
 a = 'I’m like a {} chasing {}'.format("dog","cars")
 print(a)
 
-# 在大括号中指定参数所在位置
+"""
+例2.在大括号中指定参数所在位置
+"""
 b = 'I prefer {1} {0} to {2} {0}'.format('food', 'Chinese', 'American')
 print(b)
+
+"""
+例3.指定关键字名称
+"""
+package = "com.tude.android"
+cmd = ('pm clear {package}'.format(package=package))
+print(cmd) # pm clear com.tude.android
+
 
 # >代表右对齐，>前是要填充的字符
 for i in [1, 19, 256]:

@@ -1,6 +1,8 @@
 #encoding=utf-8
 from bs4 import BeautifulSoup
 
+print("BeautifulSoup使用实例")
+
 html_sample ="""
 <html>
 <head>
@@ -15,26 +17,34 @@ html_sample ="""
 </body>
 </html>
 """
-# print(res.text)
+
+
+# 初始化soup对象
 soup = BeautifulSoup(html_sample,"html.parser")
 # print(soup.text)
-title = soup.select("h1") # 1.通过标签<h1>提取
+
+""" 1.通过标签<h1>提取 """
+title = soup.select("h1")
 print(title) # [<h1 align="left" class="myTest" id="test">自动化测试平台</h1>]
+
 print(title[0]) # <h1 align="left" class="myTest" id="test">自动化测试平台</h1>
+
 print(title[0]["align"],title[0]["class"],title[0]["id"]) # 提取标签中的属性
 
 print(title[0].text) # 自动化测试平台
 
-title2 = soup.select(selector="#test") # 2.通过ID提取
+""" 2.通过ID提取,需要加个 # """
+title2 = soup.select(selector="#test")
 # print(title2)
 # print(title2[0])
 print(title2[0].text)
 
-
-title3 = soup.select(selector=".myTest") # 3.通过class提取
+""" 3.通过class提取,需要加个 . """
+title3 = soup.select(selector=".myTest")
 # print(title3)
 # print(title3[0])
 print(title3[0].text)
+
 
 alink = soup.select(selector=".link") # 有多个值时
 # print(alink)

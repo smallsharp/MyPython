@@ -30,6 +30,7 @@ def meminfo(deviceName,apk_package_name):
         pss = ""
     return pss
 
+
 #获取内存pss值，并写入到文件
 with open("mem.txt",'w+') as m:  
     for i in range(100): 

@@ -1,5 +1,6 @@
 #coding=utf-8
 
+import os
 
 # 1.绝对路径
 abspath1 = os.path.abspath("1.常用.py")
@@ -31,7 +32,12 @@ file4 = os.path.split(
 size1 = os.path.getsize(r"D:\workspace\PythonStation\Python学习\.project")
 size2 = os.path.getsize(r"D:\workspace\PythonStation\Python学习\基础")
 
-# 8.
+# 8. 多个路径拼接
 print(os.path.dirname(__file__))
 p = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../test/ADB.py"))  # 上层目录/上层目录
 print(p)
+
+adb_path = os.path.join(os.environ["ANDROID_HOME"], "platform-tools", "adb.exe")
+
+adb_path2 = os.path.abspath(adb_path)
+print(adb_path,adb_path2)
