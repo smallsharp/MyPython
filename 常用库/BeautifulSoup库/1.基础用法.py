@@ -19,7 +19,7 @@ html_sample ="""
 """
 
 
-# 初始化soup对象
+""" 0.初始化soup对象 """
 soup = BeautifulSoup(html_sample,"html.parser")
 # print(soup.text)
 
@@ -45,8 +45,8 @@ title3 = soup.select(selector=".myTest")
 # print(title3[0])
 print(title3[0].text)
 
-
-alink = soup.select(selector=".link") # 有多个值时
+""" 4.多个值时 """
+alink = soup.select(selector=".link")
 # print(alink)
 for link in alink:
     print(link)

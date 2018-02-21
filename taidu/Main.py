@@ -24,8 +24,11 @@ def get_session():
 def all_user_diy():
     diy_url = "https://m.taidu.com/goodsSite/userDiy/queryAllUserDiy"
     params = {"abbr": "CN", "clientType": "h5", "pageNo": 1, "pageSize": 20}
-    res = requests.get(url=diy_url, params=params, cookies=session.cookies)
+    # res = requests.get(url=diy_url, params=params, cookies=session.cookies)
+    res = session.get(url=diy_url, params=params)
     return res.json()
+
+
 
 
 def main():
