@@ -1,167 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/advanced/pandas使用/1.基本使用.py" line="15" mnemonic="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4dda63ea-7ea5-4381-8897-90510d730ee5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Python学习.iml" afterPath="$PROJECT_DIR$/.idea/Python学习.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/advanced/pandas使用/2.数据的统计与排序.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/advanced/pandas使用/3.数据的筛选.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/advanced/pandas使用/4.pyplot绘制图形1.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/advanced/pandas使用/6.seaborn的使用1.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/advanced/pandas使用/7.seaborn的使用2.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/advanced/pandas使用/8.数据索引.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/advanced/pandas使用/olympics.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/advanced/pandas使用/过关题.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/script/svgcontent.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/script/svgcontent.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/script/test.svg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/script/解析svg.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/其他/Argparse使用.py" afterPath="$PROJECT_DIR$/other/Argparse使用.py" />
-      <change beforePath="$PROJECT_DIR$/其他/斐波那契数列.py" afterPath="$PROJECT_DIR$/other/斐波那契数列.py" />
-      <change beforePath="$PROJECT_DIR$/基础/__init__.py" afterPath="$PROJECT_DIR$/advanced/BeautifulSoup库/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/基础/dict字典/1.字典的基础用法.py" afterPath="$PROJECT_DIR$/basic/dict字典/1.字典的基础用法.py" />
-      <change beforePath="$PROJECT_DIR$/基础/dict字典/2.字典的排序.py" afterPath="$PROJECT_DIR$/basic/dict字典/2.字典的排序.py" />
-      <change beforePath="$PROJECT_DIR$/基础/dict字典/__init__.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/基础/list列表/1.[重要]列表的常见用法.py" afterPath="$PROJECT_DIR$/basic/list列表/1.[重要]列表的常见用法.py" />
-      <change beforePath="$PROJECT_DIR$/基础/list列表/2.list的切片.py" afterPath="$PROJECT_DIR$/basic/list列表/2.list的切片.py" />
-      <change beforePath="$PROJECT_DIR$/基础/list列表/3.[重要]列表生成式.py" afterPath="$PROJECT_DIR$/basic/list列表/3.[重要]列表生成式.py" />
-      <change beforePath="$PROJECT_DIR$/基础/list列表/4.列表的遍历.py" afterPath="$PROJECT_DIR$/basic/list列表/4.列表的遍历.py" />
-      <change beforePath="$PROJECT_DIR$/基础/list列表/5.列表的排序.py" afterPath="$PROJECT_DIR$/basic/list列表/5.列表的排序.py" />
-      <change beforePath="$PROJECT_DIR$/基础/list列表/6.随机数.py" afterPath="$PROJECT_DIR$/basic/list列表/6.随机数.py" />
-      <change beforePath="$PROJECT_DIR$/基础/list列表/7.生成列表的方法.py" afterPath="$PROJECT_DIR$/basic/list列表/7.生成列表的方法.py" />
-      <change beforePath="$PROJECT_DIR$/基础/list列表/__init__.py" afterPath="$PROJECT_DIR$/advanced/Numpy常用/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/基础/os模块/1. os和os.path常用.py" afterPath="$PROJECT_DIR$/basic/os模块/1. os和os.path常用.py" />
-      <change beforePath="$PROJECT_DIR$/基础/os模块/2. os.path常用.py" afterPath="$PROJECT_DIR$/basic/os模块/2. os.path常用.py" />
-      <change beforePath="$PROJECT_DIR$/基础/os模块/3. os.open.py" afterPath="$PROJECT_DIR$/basic/os模块/3. os.open.py" />
-      <change beforePath="$PROJECT_DIR$/基础/os模块/4. os.system用法.py" afterPath="$PROJECT_DIR$/basic/os模块/4. os.system用法.py" />
-      <change beforePath="$PROJECT_DIR$/基础/os模块/5. 实际应用.py" afterPath="$PROJECT_DIR$/basic/os模块/5. 实际应用.py" />
-      <change beforePath="$PROJECT_DIR$/基础/os模块/devices.txt" afterPath="$PROJECT_DIR$/basic/os模块/devices.txt" />
-      <change beforePath="$PROJECT_DIR$/基础/os模块/meminfo.txt" afterPath="$PROJECT_DIR$/basic/os模块/meminfo.txt" />
-      <change beforePath="$PROJECT_DIR$/基础/set集合/Set用法.py" afterPath="$PROJECT_DIR$/basic/set集合/Set用法.py" />
-      <change beforePath="$PROJECT_DIR$/基础/set集合/__init__.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/基础/set集合/集合基本用法.py" afterPath="$PROJECT_DIR$/basic/set集合/集合基本用法.py" />
-      <change beforePath="$PROJECT_DIR$/基础/str字符串/1.字符串的基础用法.py" afterPath="$PROJECT_DIR$/basic/str字符串/1.字符串的基础用法.py" />
-      <change beforePath="$PROJECT_DIR$/基础/str字符串/2.字符串的格式化.py" afterPath="$PROJECT_DIR$/basic/str字符串/2.字符串的格式化.py" />
-      <change beforePath="$PROJECT_DIR$/基础/str字符串/3.[重要]最常用.py" afterPath="$PROJECT_DIR$/basic/str字符串/3.[重要]最常用.py" />
-      <change beforePath="$PROJECT_DIR$/基础/str字符串/4.字符串不可变.py" afterPath="$PROJECT_DIR$/basic/str字符串/4.字符串不可变.py" />
-      <change beforePath="$PROJECT_DIR$/基础/str字符串/5.字符串的常用方法.py" afterPath="$PROJECT_DIR$/basic/str字符串/5.字符串的常用方法.py" />
-      <change beforePath="$PROJECT_DIR$/基础/str字符串/__init__.py" afterPath="$PROJECT_DIR$/advanced/pandas使用/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/基础/常用遍历/Python循环.py" afterPath="$PROJECT_DIR$/basic/常用遍历/Python循环.py" />
-      <change beforePath="$PROJECT_DIR$/基础/常用遍历/__init__.py" afterPath="$PROJECT_DIR$/advanced/requests库/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/__init__.py" afterPath="$PROJECT_DIR$/basic/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/dif.html" afterPath="$PROJECT_DIR$/basic/文件读写/dif.html" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/diff.html" afterPath="$PROJECT_DIR$/basic/文件读写/diff.html" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/lines.pkl" afterPath="$PROJECT_DIR$/basic/文件读写/lines.pkl" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/pickle使用/Pickle使用.py" afterPath="$PROJECT_DIR$/basic/文件读写/pickle使用/Pickle使用.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/pickle使用/__init__.py" afterPath="$PROJECT_DIR$/basic/dict字典/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/pickle使用/pickle_example.pickle" afterPath="$PROJECT_DIR$/basic/文件读写/pickle使用/pickle_example.pickle" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/sysArgv.py" afterPath="$PROJECT_DIR$/basic/文件读写/sysArgv.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/test.json" afterPath="$PROJECT_DIR$/basic/文件读写/test.json" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/对比文件具体内容1.py" afterPath="$PROJECT_DIR$/basic/文件读写/对比文件具体内容1.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/对比文件具体内容2.py" afterPath="$PROJECT_DIR$/basic/文件读写/对比文件具体内容2.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/文件对比.py" afterPath="$PROJECT_DIR$/basic/文件读写/文件对比.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/文件读取和写入/1.[重要]文件读写操作.py" afterPath="$PROJECT_DIR$/basic/文件读写/文件读取和写入/1.[重要]文件读写操作.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/文件读取和写入/2.文件操作序列化.py" afterPath="$PROJECT_DIR$/basic/文件读写/文件读取和写入/2.文件操作序列化.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/文件读取和写入/__init__.py" afterPath="$PROJECT_DIR$/basic/list列表/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/文件读取和写入/age_name.txt" afterPath="$PROJECT_DIR$/basic/文件读写/文件读取和写入/age_name.txt" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/文件读取和写入/name_age.txt" afterPath="$PROJECT_DIR$/basic/文件读写/文件读取和写入/name_age.txt" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Excel/2018_02_03.xlsx" afterPath="$PROJECT_DIR$/basic/文件读写/解析Excel/2018_02_03.xlsx" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Excel/Pandas解析Excel.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Excel/Pandas解析Excel.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Excel/_BaseExcel.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Excel/_BaseExcel.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Excel/__init__.py" afterPath="$PROJECT_DIR$/basic/set集合/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Excel/excel.xls" afterPath="$PROJECT_DIR$/basic/文件读写/解析Excel/excel.xls" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Excel/操作Excel.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Excel/操作Excel.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Excel/解析导入表.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Excel/解析导入表.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Prop/__init__.py" afterPath="$PROJECT_DIR$/basic/str字符串/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Prop/ids.prop" afterPath="$PROJECT_DIR$/basic/文件读写/解析Prop/ids.prop" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Prop/解析prop配置文件.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Prop/解析prop配置文件.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Xml/__init__.py" afterPath="$PROJECT_DIR$/basic/常用遍历/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Xml/content.svg" afterPath="$PROJECT_DIR$/basic/文件读写/解析Xml/content.svg" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Xml/解析xml格式文件.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Xml/解析xml格式文件.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Yaml/__init__.py" afterPath="$PROJECT_DIR$/basic/文件读写/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Yaml/testYaml.yaml" afterPath="$PROJECT_DIR$/basic/文件读写/解析Yaml/testYaml.yaml" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Yaml/解析Yaml格式文件.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Yaml/解析Yaml格式文件.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析json格式的字符串.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析json格式的字符串.py" />
-      <change beforePath="$PROJECT_DIR$/基础/文件读写/遍历指定目录文件.py" afterPath="$PROJECT_DIR$/basic/文件读写/遍历指定目录文件.py" />
-      <change beforePath="$PROJECT_DIR$/基础/时间模块/__init__.py" afterPath="$PROJECT_DIR$/basic/时间模块/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/基础/时间模块/时间日历1.py" afterPath="$PROJECT_DIR$/basic/时间模块/时间日历1.py" />
-      <change beforePath="$PROJECT_DIR$/基础/时间模块/时间日历2.py" afterPath="$PROJECT_DIR$/basic/时间模块/时间日历2.py" />
-      <change beforePath="$PROJECT_DIR$/基础/时间模块/时间日历3.py" afterPath="$PROJECT_DIR$/basic/时间模块/时间日历3.py" />
-      <change beforePath="$PROJECT_DIR$/基础/时间模块/时间日历4.py" afterPath="$PROJECT_DIR$/basic/时间模块/时间日历4.py" />
-      <change beforePath="$PROJECT_DIR$/基础/正则/1.[重要]常用方式.py" afterPath="$PROJECT_DIR$/basic/正则/1.[重要]常用方式.py" />
-      <change beforePath="$PROJECT_DIR$/基础/正则/2. 正则的和split.py" afterPath="$PROJECT_DIR$/basic/正则/2. 正则的和split.py" />
-      <change beforePath="$PROJECT_DIR$/基础/正则/3. 实际应用1.py" afterPath="$PROJECT_DIR$/basic/正则/3. 实际应用1.py" />
-      <change beforePath="$PROJECT_DIR$/基础/生成器/__init__.py" afterPath="$PROJECT_DIR$/basic/生成器/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/基础/装饰器/1.嵌套函数.py" afterPath="$PROJECT_DIR$/basic/装饰器/1.嵌套函数.py" />
-      <change beforePath="$PROJECT_DIR$/基础/装饰器/2.闭包.py" afterPath="$PROJECT_DIR$/basic/装饰器/2.闭包.py" />
-      <change beforePath="$PROJECT_DIR$/基础/装饰器/3.装饰器.py" afterPath="$PROJECT_DIR$/basic/装饰器/3.装饰器.py" />
-      <change beforePath="$PROJECT_DIR$/基础/装饰器/__init__.py" afterPath="$PROJECT_DIR$/basic/文件读写/pickle使用/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/.idea/cmall.iml" afterPath="$PROJECT_DIR$/advanced/.idea/cmall.iml" />
-      <change beforePath="$PROJECT_DIR$/常用库/.idea/misc.xml" afterPath="$PROJECT_DIR$/advanced/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/常用库/.idea/modules.xml" afterPath="$PROJECT_DIR$/advanced/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/常用库/.idea/workspace.xml" afterPath="$PROJECT_DIR$/advanced/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/常用库/BeautifulSoup库/1.基础用法.py" afterPath="$PROJECT_DIR$/advanced/BeautifulSoup库/1.基础用法.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/BeautifulSoup库/2.制作新浪新闻网络爬虫.py" afterPath="$PROJECT_DIR$/advanced/BeautifulSoup库/2.制作新浪新闻网络爬虫.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/BeautifulSoup库/__init__.py" afterPath="$PROJECT_DIR$/basic/文件读写/文件读取和写入/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/MysqlUtil.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/MysqlUtil.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/__init__.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Excel/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/创建数据库表.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/创建数据库表.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/基础操作.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/基础操作.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/数据库插入.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/数据库插入.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/数据库更新.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/数据库更新.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/数据库查询.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/数据库查询.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/数据库测试.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/数据库测试.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/Numpy常用/1.Numpy属性.py" afterPath="$PROJECT_DIR$/advanced/Numpy常用/1.Numpy属性.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/Numpy常用/2.Numpy创建array.py" afterPath="$PROJECT_DIR$/advanced/Numpy常用/2.Numpy创建array.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/Numpy常用/3.Numpy基础运算1.py" afterPath="$PROJECT_DIR$/advanced/Numpy常用/3.Numpy基础运算1.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/Numpy常用/__init__.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Prop/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/1.读取图片.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/1.读取图片.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/10.PIL和OpenCV图像转换.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/10.PIL和OpenCV图像转换.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/11.视频的读取显示和保存.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/11.视频的读取显示和保存.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/12.保存视频.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/12.保存视频.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/2.获取图像的属性.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/2.获取图像的属性.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/3.生成指定大小的空图片.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/3.生成指定大小的空图片.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/4.cvtColor.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/4.cvtColor.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/4.cvtColor2.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/4.cvtColor2.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/4.访问和操作图像像素.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/4.访问和操作图像像素.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/5.图片的缩放与换色.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/5.图片的缩放与换色.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/6.图像ROI（region of interest）.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/6.图像ROI（region of interest）.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/7.转换颜色空间.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/7.转换颜色空间.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/8.几何变换之平移.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/8.几何变换之平移.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/8.几何变换之旋转.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/8.几何变换之旋转.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/8.几何变换之缩放.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/8.几何变换之缩放.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/9,绘图.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/9,绘图.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/__init__.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Xml/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/ball.jpg" afterPath="$PROJECT_DIR$/advanced/opencv使用/ball.jpg" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/state.png" afterPath="$PROJECT_DIR$/advanced/opencv使用/state.png" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/test.jpg" afterPath="$PROJECT_DIR$/advanced/opencv使用/test.jpg" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/test1.png" afterPath="$PROJECT_DIR$/advanced/opencv使用/test1.png" />
-      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/test_new.png" afterPath="$PROJECT_DIR$/advanced/opencv使用/test_new.png" />
-      <change beforePath="$PROJECT_DIR$/常用库/pandas使用/1.基本使用.py" afterPath="$PROJECT_DIR$/advanced/pandas使用/1.基本使用.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/pandas使用/2.基本使用.py" afterPath="$PROJECT_DIR$/advanced/pandas使用/2.基本使用.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/pandas使用/3.基本使用.py" afterPath="$PROJECT_DIR$/advanced/pandas使用/3.基本使用.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/pandas使用/4.显示图形.py" afterPath="$PROJECT_DIR$/advanced/pandas使用/4.显示图形.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/pandas使用/5.显示图形.py" afterPath="$PROJECT_DIR$/advanced/pandas使用/5.显示图形.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/pandas使用/__init__.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Yaml/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/pandas使用/abc.csv" afterPath="$PROJECT_DIR$/advanced/pandas使用/abc.csv" />
-      <change beforePath="$PROJECT_DIR$/常用库/requests库/1. 基础用法.py" afterPath="$PROJECT_DIR$/advanced/requests库/1. 基础用法.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/requests库/2. post.py" afterPath="$PROJECT_DIR$/advanced/requests库/2. post.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/requests库/3. 会话维持.py" afterPath="$PROJECT_DIR$/advanced/requests库/3. 会话维持.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/requests库/4. status_code.py" afterPath="$PROJECT_DIR$/advanced/requests库/4. status_code.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/requests库/5. 证书.py" afterPath="$PROJECT_DIR$/advanced/requests库/5. 证书.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/requests库/6. 代理.py" afterPath="$PROJECT_DIR$/advanced/requests库/6. 代理.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/requests库/7. 异常处理.py" afterPath="$PROJECT_DIR$/advanced/requests库/7. 异常处理.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/requests库/8. 认证.py" afterPath="$PROJECT_DIR$/advanced/requests库/8. 认证.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/requests库/__init__.py" afterPath="$PROJECT_DIR$/basic/装饰器/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/requests库/res_content.json" afterPath="$PROJECT_DIR$/advanced/requests库/res_content.json" />
-      <change beforePath="$PROJECT_DIR$/常用库/requests库/test.py" afterPath="$PROJECT_DIR$/advanced/requests库/test.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/1. Hello.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/1. Hello.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/2. MonkeyTool.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/2. MonkeyTool.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/5. 登录Demo.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/5. 登录Demo.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/TK.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/TK.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/TK测试.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/TK测试.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/demo.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/demo.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/gui.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/gui.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/gui2.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/gui2.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/tkinter使用2.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/tkinter使用2.py" />
-      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/usrs_info.pickle" afterPath="$PROJECT_DIR$/advanced/tkinter使用/usrs_info.pickle" />
-      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/welcome.gif" afterPath="$PROJECT_DIR$/advanced/tkinter使用/welcome.gif" />
-      <change beforePath="$PROJECT_DIR$/爬虫/ToutiaoJiePai.py" afterPath="$PROJECT_DIR$/crawler/ToutiaoJiePai.py" />
-      <change beforePath="$PROJECT_DIR$/爬虫/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/advanced/pandas使用/1.基本使用.py" afterPath="$PROJECT_DIR$/advanced/pandas使用/1.基本使用.py" />
+      <change beforePath="$PROJECT_DIR$/advanced/pandas使用/2.基本使用.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/advanced/pandas使用/3.基本使用.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/advanced/pandas使用/4.显示图形.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/advanced/pandas使用/5.显示图形.py" afterPath="$PROJECT_DIR$/advanced/pandas使用/5.pyplot绘制图形2.py" />
+      <change beforePath="$PROJECT_DIR$/crawler/ToutiaoJiePai.py" afterPath="$PROJECT_DIR$/advanced/crawler/ToutiaoJiePai.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -173,31 +31,111 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Python$3_Numpy1.coverage" NAME="3.Numpy基础运算1 Coverage Results" MODIFIED="1516616389865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/进阶/Numpy常用" />
-    <SUITE FILE_PATH="coverage/Python$list__1_.coverage" NAME="list的切片 (1) Coverage Results" MODIFIED="1516605526856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础" />
-    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="百度登录 Coverage Results" MODIFIED="1516765327122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python/http" />
-    <SUITE FILE_PATH="coverage/cmall$Numpy.coverage" NAME="Numpy属性 Coverage Results" MODIFIED="1516590903946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考/Numpy常用" />
-    <SUITE FILE_PATH="coverage/Python$1_.coverage" NAME="1.读取图片 Coverage Results" MODIFIED="1516766637124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python/常用库/opencv使用" />
-    <SUITE FILE_PATH="coverage/cmall$.coverage" NAME="继承 Coverage Results" MODIFIED="1513160311354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考/test" />
-    <SUITE FILE_PATH="coverage/cmall$2.coverage" NAME="正则测试2 Coverage Results" MODIFIED="1513073837602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考/正则" />
+    <SUITE FILE_PATH="coverage/Python$6_seaborn1.coverage" NAME="6.seaborn的使用1 Coverage Results" MODIFIED="1519361182418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/pandas使用" />
+    <SUITE FILE_PATH="coverage/Python$8_.coverage" NAME="8.数据索引 Coverage Results" MODIFIED="1519363132726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/pandas使用" />
+    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="过关题 Coverage Results" MODIFIED="1519379290312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/pandas使用" />
+    <SUITE FILE_PATH="coverage/Python$1_.coverage" NAME="1.基本使用 Coverage Results" MODIFIED="1519369875802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/pandas使用" />
     <SUITE FILE_PATH="coverage/cmall$String.coverage" NAME="测试String Coverage Results" MODIFIED="1514369918681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考" />
     <SUITE FILE_PATH="coverage/Python$String.coverage" NAME="测试String Coverage Results" MODIFIED="1516612729381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/进阶" />
     <SUITE FILE_PATH="coverage/cmall$prop.coverage" NAME="解析prop配置文件 Coverage Results" MODIFIED="1513136823102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考/解析文本" />
     <SUITE FILE_PATH="coverage/Python$Set.coverage" NAME="Set用法 Coverage Results" MODIFIED="1516613372271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/进阶" />
     <SUITE FILE_PATH="coverage/Python$list.coverage" NAME="list常见用法 Coverage Results" MODIFIED="1516625274744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础/list专辑" />
-    <SUITE FILE_PATH="coverage/cmall$YAML2.coverage" NAME="YAML2 Coverage Results" MODIFIED="1513136264391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考/test" />
-    <SUITE FILE_PATH="coverage/Python$SessionDemo.coverage" NAME="SessionDemo Coverage Results" MODIFIED="1516765313918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python/http" />
-    <SUITE FILE_PATH="coverage/Python$3_.coverage" NAME="3. Coverage Results" MODIFIED="1516767019195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python/常用库/opencv使用" />
+    <SUITE FILE_PATH="coverage/Python$3_.coverage" NAME="3.数据的筛选 Coverage Results" MODIFIED="1519375414759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/pandas使用" />
     <SUITE FILE_PATH="coverage/Python$4_cvtColor.coverage" NAME="4.cvtColor Coverage Results" MODIFIED="1516609200187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/进阶/CV2常用" />
-    <SUITE FILE_PATH="coverage/Python$Pickle.coverage" NAME="Pickle使用 Coverage Results" MODIFIED="1516613121688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/进阶" />
-    <SUITE FILE_PATH="coverage/cmall$ParseYaml.coverage" NAME="ParseYaml Coverage Results" MODIFIED="1513136671614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考/test" />
-    <SUITE FILE_PATH="coverage/cmall$Python.coverage" NAME="Python循环 Coverage Results" MODIFIED="1513073649883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考" />
-    <SUITE FILE_PATH="coverage/cmall$Numpyarray.coverage" NAME="Numpy创建array Coverage Results" MODIFIED="1516593248520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考/Numpy常用" />
     <SUITE FILE_PATH="coverage/cmall$lambdaDemo.coverage" NAME="lambdaDemo Coverage Results" MODIFIED="1513149951437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考/test" />
     <SUITE FILE_PATH="coverage/Python$4_cvtColor2.coverage" NAME="4.cvtColor2 Coverage Results" MODIFIED="1516609792193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/进阶/CV2常用" />
     <SUITE FILE_PATH="coverage/cmall$taidu.coverage" NAME="taidu Coverage Results" MODIFIED="1514371012160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium" />
+    <SUITE FILE_PATH="coverage/Python$list__1_.coverage" NAME="list的切片 (1) Coverage Results" MODIFIED="1516605526856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础" />
+    <SUITE FILE_PATH="coverage/Python$2_1.coverage" NAME="2.基本数据分析1 Coverage Results" MODIFIED="1519373843337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/pandas使用" />
+    <SUITE FILE_PATH="coverage/cmall$Numpy.coverage" NAME="Numpy属性 Coverage Results" MODIFIED="1516590903946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考/Numpy常用" />
+    <SUITE FILE_PATH="coverage/cmall$.coverage" NAME="继承 Coverage Results" MODIFIED="1513160311354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考/test" />
+    <SUITE FILE_PATH="coverage/cmall$2.coverage" NAME="正则测试2 Coverage Results" MODIFIED="1513073837602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考/正则" />
+    <SUITE FILE_PATH="coverage/Python$2_.coverage" NAME="2.数据的统计与排序 Coverage Results" MODIFIED="1519377474722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/pandas使用" />
+    <SUITE FILE_PATH="coverage/Python$7_seaborn2.coverage" NAME="7.seaborn的使用2 Coverage Results" MODIFIED="1519380400834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/pandas使用" />
+    <SUITE FILE_PATH="coverage/cmall$YAML2.coverage" NAME="YAML2 Coverage Results" MODIFIED="1513136264391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考/test" />
+    <SUITE FILE_PATH="coverage/Python$SessionDemo.coverage" NAME="SessionDemo Coverage Results" MODIFIED="1516765313918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python/http" />
+    <SUITE FILE_PATH="coverage/Python$Pickle.coverage" NAME="Pickle使用 Coverage Results" MODIFIED="1516613121688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/进阶" />
+    <SUITE FILE_PATH="coverage/Python$5_pyplot2.coverage" NAME="5.pyplot绘制图形2 Coverage Results" MODIFIED="1519380341369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/pandas使用" />
+    <SUITE FILE_PATH="coverage/cmall$ParseYaml.coverage" NAME="ParseYaml Coverage Results" MODIFIED="1513136671614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考/test" />
+    <SUITE FILE_PATH="coverage/cmall$Python.coverage" NAME="Python循环 Coverage Results" MODIFIED="1513073649883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考" />
+    <SUITE FILE_PATH="coverage/cmall$Numpyarray.coverage" NAME="Numpy创建array Coverage Results" MODIFIED="1516593248520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考/Numpy常用" />
+    <SUITE FILE_PATH="coverage/Python$4_.coverage" NAME="4.显示图形 Coverage Results" MODIFIED="1519379612789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/pandas使用" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="3.数据的筛选.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/pandas使用/3.数据的筛选.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+              <folding>
+                <element signature="e#15#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4.pyplot绘制图形1.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/pandas使用/4.pyplot绘制图形1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6.seaborn的使用1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/advanced/pandas使用/6.seaborn的使用1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+              <folding>
+                <element signature="e#16#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7.seaborn的使用2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/pandas使用/7.seaborn的使用2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#16#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="5.pyplot绘制图形2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/pandas使用/5.pyplot绘制图形2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="394">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#15#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2.数据的统计与排序.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/advanced/pandas使用/2.数据的统计与排序.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="e#15#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -253,6 +191,19 @@
         <option value="$PROJECT_DIR$/../Python/常用库/opencv使用/4.cvtColor2.py" />
         <option value="$PROJECT_DIR$/../Python/常用库/opencv使用/4.cvtColor.py" />
         <option value="$PROJECT_DIR$/../Python/常用库/opencv使用/3..py" />
+        <option value="$PROJECT_DIR$/advanced/pandas使用/aaa.ipynb" />
+        <option value="$PROJECT_DIR$/advanced/pandas使用/8.数据索引.py" />
+        <option value="$PROJECT_DIR$/advanced/pandas使用/2.基本使用.py" />
+        <option value="$PROJECT_DIR$/advanced/pandas使用/1.基本使用.py" />
+        <option value="$PROJECT_DIR$/advanced/pandas使用/2.基本数据分析1.py" />
+        <option value="$PROJECT_DIR$/advanced/pandas使用/3.数据的筛选.py" />
+        <option value="$PROJECT_DIR$/advanced/pandas使用/2.数据的统计与排序.py" />
+        <option value="$PROJECT_DIR$/advanced/pandas使用/过关题.py" />
+        <option value="$PROJECT_DIR$/advanced/pandas使用/4.显示图形.py" />
+        <option value="$PROJECT_DIR$/advanced/pandas使用/5.plot绘制图形2.py" />
+        <option value="$PROJECT_DIR$/advanced/pandas使用/5.pyplot绘制图形2.py" />
+        <option value="$PROJECT_DIR$/advanced/pandas使用/7.seaborn的使用2.py" />
+        <option value="$PROJECT_DIR$/advanced/pandas使用/6.seaborn的使用1.py" />
       </list>
     </option>
   </component>
@@ -263,10 +214,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-224" />
-    <option name="y" value="-1088" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="160" />
+    <option name="y" value="-872" />
+    <option name="width" value="1364" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -324,6 +275,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -339,7 +293,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -347,10 +300,22 @@
               <item name="Python学习汇总" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python学习" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Python学习汇总" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python学习" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python学习汇总" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python学习" type="462c0819:PsiDirectoryNode" />
+              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="pandas使用" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -361,16 +326,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\PythonStation\Python学习\advanced\pandas使用" />
       <recent name="D:\workspace\PythonStation\cmall\常用参考\CV2常用" />
       <recent name="D:\workspace\PythonStation\cmall\常用参考" />
       <recent name="D:\workspace\PythonStation\cmall\常用参考\解析文本" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\PythonStation\Python学习\advanced\pandas使用" />
+      <recent name="D:\workspace\PythonStation\Python学习\advanced" />
+      <recent name="D:\workspace\PythonStation\Python学习\taidu" />
       <recent name="D:\workspace\PythonStation\Python\基础" />
       <recent name="D:\workspace\PythonStation\cmall\基础" />
-      <recent name="D:\workspace\PythonStation\cmall" />
-      <recent name="D:\workspace\PythonStation\cmall\基础\list专辑" />
-      <recent name="D:\workspace\PythonStation\cmall\常用参考\正则" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,7 +351,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.3.">
+  <component name="RunManager" selected="Python.7.seaborn的使用2">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -431,96 +397,96 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
     </configuration>
-    <configuration name="随机数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="过关题" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/基础/list专辑" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced/pandas使用" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python学习汇总" />
+      <module name="Python学习" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/基础/list专辑/随机数.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced/pandas使用/过关题.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="1.读取图片" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2.数据的统计与排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Python/常用库/opencv使用" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced/pandas使用" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python学习汇总" />
+      <module name="Python学习" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Python/常用库/opencv使用/1.读取图片.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced/pandas使用/2.数据的统计与排序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="3." type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="4.显示图形" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Python/常用库/opencv使用" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced/pandas使用" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python学习汇总" />
+      <module name="Python学习" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Python/常用库/opencv使用/3..py" />
+      <option name="SCRIPT_NAME" value="D:\workspace\PythonStation\Python学习\advanced\pandas使用\4.pyplot绘制图形1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="SessionDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="5.pyplot绘制图形2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Python/http" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced/pandas使用" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python学习汇总" />
+      <module name="Python学习" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Python/http/SessionDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced/pandas使用/5.pyplot绘制图形2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="Set用法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="7.seaborn的使用2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/进阶" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced/pandas使用" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python学习汇总" />
+      <module name="Python学习" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/进阶/Set用法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced/pandas使用/7.seaborn的使用2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -639,18 +605,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Set用法" />
-      <item index="1" class="java.lang.String" itemvalue="Python.随机数" />
-      <item index="2" class="java.lang.String" itemvalue="Python.SessionDemo" />
-      <item index="3" class="java.lang.String" itemvalue="Python.1.读取图片" />
-      <item index="4" class="java.lang.String" itemvalue="Python.3." />
+      <item index="0" class="java.lang.String" itemvalue="Python.过关题" />
+      <item index="1" class="java.lang.String" itemvalue="Python.2.数据的统计与排序" />
+      <item index="2" class="java.lang.String" itemvalue="Python.4.显示图形" />
+      <item index="3" class="java.lang.String" itemvalue="Python.5.pyplot绘制图形2" />
+      <item index="4" class="java.lang.String" itemvalue="Python.7.seaborn的使用2" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.3." />
-        <item index="1" class="java.lang.String" itemvalue="Python.1.读取图片" />
-        <item index="2" class="java.lang.String" itemvalue="Python.SessionDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Python.随机数" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.7.seaborn的使用2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.5.pyplot绘制图形2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.4.显示图形" />
+        <item index="3" class="java.lang.String" itemvalue="Python.过关题" />
+        <item index="4" class="java.lang.String" itemvalue="Python.2.数据的统计与排序" />
       </list>
     </recent_temporary>
   </component>
@@ -672,20 +639,21 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-224" y="-1088" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21139896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30809128" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17495987" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30809128" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17377399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17537314" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -712,35 +680,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
-    <entry file="file://D:/python/Lib/site-packages/appium/webdriver/webdriver.py" />
-    <entry file="file://$PROJECT_DIR$/../AppiumForPython/temp/AppiumAPI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/Argparse使用.py" />
-    <entry file="file://$PROJECT_DIR$/../Python/基础/解析文本/读写文件.py" />
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/Numpy常用/1.Numpy属性.py" />
-    <entry file="file://D:/python/Lib/codecs.py" />
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/numpy/core/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="3519" column="8" lean-forward="false" selection-start-line="3519" selection-start-column="8" selection-end-line="3519" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/pickle_example.pickle" />
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/Pickle使用.py" />
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/全局变量用法.py" />
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/Numpy常用/3.Numpy基础运算1.py" />
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/Numpy常用/2.Numpy创建array.py" />
-    <entry file="file://$PROJECT_DIR$/../Python/基础/list专辑/随机数.py" />
-    <entry file="file://$PROJECT_DIR$/常用库/下载文件/下载.py" />
-    <entry file="file://$PROJECT_DIR$/../Python/基础/list专辑/list的切片.py" />
-    <entry file="file://$PROJECT_DIR$/../Python/基础/list专辑/list常见用法.py" />
     <entry file="file://$PROJECT_DIR$/常用库/基础数据结构/数据结构.py" />
     <entry file="file://$PROJECT_DIR$/../Python/基础/解析文本/解析Json格式文件.py" />
     <entry file="file://$PROJECT_DIR$/../Python/基础/解析文本/解析Yaml格式文件.py" />
@@ -778,7 +717,7 @@
     <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/4.cvtColor2.py" />
     <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/4.cvtColor.py" />
     <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/3..py" />
-    <entry file="file://$PROJECT_DIR$/script/Play图片访问.py">
+    <entry file="file://$PROJECT_DIR$/taidu/Play图片访问.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -786,7 +725,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/MySqlHelper.py">
+    <entry file="file://$PROJECT_DIR$/taidu/MySqlHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taidu/modelJson.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taidu/接口中所有图片.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1140">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taidu/检查模型包是否一致.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -794,11 +755,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/script/modelJson.txt">
+    <entry file="file://$PROJECT_DIR$/android/ADB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/pandas使用/aaa.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3.5/Lib/site-packages/seaborn/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/pandas使用/olympics.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/pandas使用/1.基本使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="96" column="1" lean-forward="false" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3.5/Lib/site-packages/pandas/core/series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="1680" column="8" lean-forward="false" selection-start-line="1680" selection-start-column="8" selection-end-line="1680" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/pandas使用/8.数据索引.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/pandas使用/3.数据的筛选.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <element signature="e#15#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/pandas使用/过关题.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/pandas使用/2.数据的统计与排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#15#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/pandas使用/4.pyplot绘制图形1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/pandas使用/5.pyplot绘制图形2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#15#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/pandas使用/7.seaborn的使用2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Anaconda3.5/Lib/site-packages/seaborn/categorical.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="73" column="38" lean-forward="false" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/pandas使用/6.seaborn的使用1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <folding>
+            <element signature="e#16#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
