@@ -1,7 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dda63ea-7ea5-4381-8897-90510d730ee5" name="Default" comment="" />
+    <list default="true" id="4dda63ea-7ea5-4381-8897-90510d730ee5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Python学习.iml" afterPath="$PROJECT_DIR$/.idea/Python学习.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/script/svgcontent.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/script/svgcontent.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/script/test.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/script/解析svg.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/其他/Argparse使用.py" afterPath="$PROJECT_DIR$/other/Argparse使用.py" />
+      <change beforePath="$PROJECT_DIR$/其他/斐波那契数列.py" afterPath="$PROJECT_DIR$/other/斐波那契数列.py" />
+      <change beforePath="$PROJECT_DIR$/基础/__init__.py" afterPath="$PROJECT_DIR$/advanced/BeautifulSoup库/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/基础/dict字典/1.字典的基础用法.py" afterPath="$PROJECT_DIR$/basic/dict字典/1.字典的基础用法.py" />
+      <change beforePath="$PROJECT_DIR$/基础/dict字典/2.字典的排序.py" afterPath="$PROJECT_DIR$/basic/dict字典/2.字典的排序.py" />
+      <change beforePath="$PROJECT_DIR$/基础/dict字典/__init__.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/基础/list列表/1.[重要]列表的常见用法.py" afterPath="$PROJECT_DIR$/basic/list列表/1.[重要]列表的常见用法.py" />
+      <change beforePath="$PROJECT_DIR$/基础/list列表/2.list的切片.py" afterPath="$PROJECT_DIR$/basic/list列表/2.list的切片.py" />
+      <change beforePath="$PROJECT_DIR$/基础/list列表/3.[重要]列表生成式.py" afterPath="$PROJECT_DIR$/basic/list列表/3.[重要]列表生成式.py" />
+      <change beforePath="$PROJECT_DIR$/基础/list列表/4.列表的遍历.py" afterPath="$PROJECT_DIR$/basic/list列表/4.列表的遍历.py" />
+      <change beforePath="$PROJECT_DIR$/基础/list列表/5.列表的排序.py" afterPath="$PROJECT_DIR$/basic/list列表/5.列表的排序.py" />
+      <change beforePath="$PROJECT_DIR$/基础/list列表/6.随机数.py" afterPath="$PROJECT_DIR$/basic/list列表/6.随机数.py" />
+      <change beforePath="$PROJECT_DIR$/基础/list列表/7.生成列表的方法.py" afterPath="$PROJECT_DIR$/basic/list列表/7.生成列表的方法.py" />
+      <change beforePath="$PROJECT_DIR$/基础/list列表/__init__.py" afterPath="$PROJECT_DIR$/advanced/Numpy常用/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/基础/os模块/1. os和os.path常用.py" afterPath="$PROJECT_DIR$/basic/os模块/1. os和os.path常用.py" />
+      <change beforePath="$PROJECT_DIR$/基础/os模块/2. os.path常用.py" afterPath="$PROJECT_DIR$/basic/os模块/2. os.path常用.py" />
+      <change beforePath="$PROJECT_DIR$/基础/os模块/3. os.open.py" afterPath="$PROJECT_DIR$/basic/os模块/3. os.open.py" />
+      <change beforePath="$PROJECT_DIR$/基础/os模块/4. os.system用法.py" afterPath="$PROJECT_DIR$/basic/os模块/4. os.system用法.py" />
+      <change beforePath="$PROJECT_DIR$/基础/os模块/5. 实际应用.py" afterPath="$PROJECT_DIR$/basic/os模块/5. 实际应用.py" />
+      <change beforePath="$PROJECT_DIR$/基础/os模块/devices.txt" afterPath="$PROJECT_DIR$/basic/os模块/devices.txt" />
+      <change beforePath="$PROJECT_DIR$/基础/os模块/meminfo.txt" afterPath="$PROJECT_DIR$/basic/os模块/meminfo.txt" />
+      <change beforePath="$PROJECT_DIR$/基础/set集合/Set用法.py" afterPath="$PROJECT_DIR$/basic/set集合/Set用法.py" />
+      <change beforePath="$PROJECT_DIR$/基础/set集合/__init__.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/基础/set集合/集合基本用法.py" afterPath="$PROJECT_DIR$/basic/set集合/集合基本用法.py" />
+      <change beforePath="$PROJECT_DIR$/基础/str字符串/1.字符串的基础用法.py" afterPath="$PROJECT_DIR$/basic/str字符串/1.字符串的基础用法.py" />
+      <change beforePath="$PROJECT_DIR$/基础/str字符串/2.字符串的格式化.py" afterPath="$PROJECT_DIR$/basic/str字符串/2.字符串的格式化.py" />
+      <change beforePath="$PROJECT_DIR$/基础/str字符串/3.[重要]最常用.py" afterPath="$PROJECT_DIR$/basic/str字符串/3.[重要]最常用.py" />
+      <change beforePath="$PROJECT_DIR$/基础/str字符串/4.字符串不可变.py" afterPath="$PROJECT_DIR$/basic/str字符串/4.字符串不可变.py" />
+      <change beforePath="$PROJECT_DIR$/基础/str字符串/5.字符串的常用方法.py" afterPath="$PROJECT_DIR$/basic/str字符串/5.字符串的常用方法.py" />
+      <change beforePath="$PROJECT_DIR$/基础/str字符串/__init__.py" afterPath="$PROJECT_DIR$/advanced/pandas使用/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/基础/常用遍历/Python循环.py" afterPath="$PROJECT_DIR$/basic/常用遍历/Python循环.py" />
+      <change beforePath="$PROJECT_DIR$/基础/常用遍历/__init__.py" afterPath="$PROJECT_DIR$/advanced/requests库/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/__init__.py" afterPath="$PROJECT_DIR$/basic/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/dif.html" afterPath="$PROJECT_DIR$/basic/文件读写/dif.html" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/diff.html" afterPath="$PROJECT_DIR$/basic/文件读写/diff.html" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/lines.pkl" afterPath="$PROJECT_DIR$/basic/文件读写/lines.pkl" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/pickle使用/Pickle使用.py" afterPath="$PROJECT_DIR$/basic/文件读写/pickle使用/Pickle使用.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/pickle使用/__init__.py" afterPath="$PROJECT_DIR$/basic/dict字典/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/pickle使用/pickle_example.pickle" afterPath="$PROJECT_DIR$/basic/文件读写/pickle使用/pickle_example.pickle" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/sysArgv.py" afterPath="$PROJECT_DIR$/basic/文件读写/sysArgv.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/test.json" afterPath="$PROJECT_DIR$/basic/文件读写/test.json" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/对比文件具体内容1.py" afterPath="$PROJECT_DIR$/basic/文件读写/对比文件具体内容1.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/对比文件具体内容2.py" afterPath="$PROJECT_DIR$/basic/文件读写/对比文件具体内容2.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/文件对比.py" afterPath="$PROJECT_DIR$/basic/文件读写/文件对比.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/文件读取和写入/1.[重要]文件读写操作.py" afterPath="$PROJECT_DIR$/basic/文件读写/文件读取和写入/1.[重要]文件读写操作.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/文件读取和写入/2.文件操作序列化.py" afterPath="$PROJECT_DIR$/basic/文件读写/文件读取和写入/2.文件操作序列化.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/文件读取和写入/__init__.py" afterPath="$PROJECT_DIR$/basic/list列表/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/文件读取和写入/age_name.txt" afterPath="$PROJECT_DIR$/basic/文件读写/文件读取和写入/age_name.txt" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/文件读取和写入/name_age.txt" afterPath="$PROJECT_DIR$/basic/文件读写/文件读取和写入/name_age.txt" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Excel/2018_02_03.xlsx" afterPath="$PROJECT_DIR$/basic/文件读写/解析Excel/2018_02_03.xlsx" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Excel/Pandas解析Excel.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Excel/Pandas解析Excel.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Excel/_BaseExcel.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Excel/_BaseExcel.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Excel/__init__.py" afterPath="$PROJECT_DIR$/basic/set集合/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Excel/excel.xls" afterPath="$PROJECT_DIR$/basic/文件读写/解析Excel/excel.xls" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Excel/操作Excel.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Excel/操作Excel.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Excel/解析导入表.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Excel/解析导入表.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Prop/__init__.py" afterPath="$PROJECT_DIR$/basic/str字符串/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Prop/ids.prop" afterPath="$PROJECT_DIR$/basic/文件读写/解析Prop/ids.prop" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Prop/解析prop配置文件.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Prop/解析prop配置文件.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Xml/__init__.py" afterPath="$PROJECT_DIR$/basic/常用遍历/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Xml/content.svg" afterPath="$PROJECT_DIR$/basic/文件读写/解析Xml/content.svg" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Xml/解析xml格式文件.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Xml/解析xml格式文件.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Yaml/__init__.py" afterPath="$PROJECT_DIR$/basic/文件读写/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Yaml/testYaml.yaml" afterPath="$PROJECT_DIR$/basic/文件读写/解析Yaml/testYaml.yaml" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析Yaml/解析Yaml格式文件.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Yaml/解析Yaml格式文件.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/解析json格式的字符串.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析json格式的字符串.py" />
+      <change beforePath="$PROJECT_DIR$/基础/文件读写/遍历指定目录文件.py" afterPath="$PROJECT_DIR$/basic/文件读写/遍历指定目录文件.py" />
+      <change beforePath="$PROJECT_DIR$/基础/时间模块/__init__.py" afterPath="$PROJECT_DIR$/basic/时间模块/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/基础/时间模块/时间日历1.py" afterPath="$PROJECT_DIR$/basic/时间模块/时间日历1.py" />
+      <change beforePath="$PROJECT_DIR$/基础/时间模块/时间日历2.py" afterPath="$PROJECT_DIR$/basic/时间模块/时间日历2.py" />
+      <change beforePath="$PROJECT_DIR$/基础/时间模块/时间日历3.py" afterPath="$PROJECT_DIR$/basic/时间模块/时间日历3.py" />
+      <change beforePath="$PROJECT_DIR$/基础/时间模块/时间日历4.py" afterPath="$PROJECT_DIR$/basic/时间模块/时间日历4.py" />
+      <change beforePath="$PROJECT_DIR$/基础/正则/1.[重要]常用方式.py" afterPath="$PROJECT_DIR$/basic/正则/1.[重要]常用方式.py" />
+      <change beforePath="$PROJECT_DIR$/基础/正则/2. 正则的和split.py" afterPath="$PROJECT_DIR$/basic/正则/2. 正则的和split.py" />
+      <change beforePath="$PROJECT_DIR$/基础/正则/3. 实际应用1.py" afterPath="$PROJECT_DIR$/basic/正则/3. 实际应用1.py" />
+      <change beforePath="$PROJECT_DIR$/基础/生成器/__init__.py" afterPath="$PROJECT_DIR$/basic/生成器/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/基础/装饰器/1.嵌套函数.py" afterPath="$PROJECT_DIR$/basic/装饰器/1.嵌套函数.py" />
+      <change beforePath="$PROJECT_DIR$/基础/装饰器/2.闭包.py" afterPath="$PROJECT_DIR$/basic/装饰器/2.闭包.py" />
+      <change beforePath="$PROJECT_DIR$/基础/装饰器/3.装饰器.py" afterPath="$PROJECT_DIR$/basic/装饰器/3.装饰器.py" />
+      <change beforePath="$PROJECT_DIR$/基础/装饰器/__init__.py" afterPath="$PROJECT_DIR$/basic/文件读写/pickle使用/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/.idea/cmall.iml" afterPath="$PROJECT_DIR$/advanced/.idea/cmall.iml" />
+      <change beforePath="$PROJECT_DIR$/常用库/.idea/misc.xml" afterPath="$PROJECT_DIR$/advanced/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/常用库/.idea/modules.xml" afterPath="$PROJECT_DIR$/advanced/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/常用库/.idea/workspace.xml" afterPath="$PROJECT_DIR$/advanced/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/常用库/BeautifulSoup库/1.基础用法.py" afterPath="$PROJECT_DIR$/advanced/BeautifulSoup库/1.基础用法.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/BeautifulSoup库/2.制作新浪新闻网络爬虫.py" afterPath="$PROJECT_DIR$/advanced/BeautifulSoup库/2.制作新浪新闻网络爬虫.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/BeautifulSoup库/__init__.py" afterPath="$PROJECT_DIR$/basic/文件读写/文件读取和写入/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/MysqlUtil.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/MysqlUtil.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/__init__.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Excel/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/创建数据库表.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/创建数据库表.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/基础操作.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/基础操作.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/数据库插入.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/数据库插入.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/数据库更新.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/数据库更新.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/数据库查询.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/数据库查询.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/Mysql数据库/数据库测试.py" afterPath="$PROJECT_DIR$/advanced/Mysql数据库/数据库测试.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/Numpy常用/1.Numpy属性.py" afterPath="$PROJECT_DIR$/advanced/Numpy常用/1.Numpy属性.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/Numpy常用/2.Numpy创建array.py" afterPath="$PROJECT_DIR$/advanced/Numpy常用/2.Numpy创建array.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/Numpy常用/3.Numpy基础运算1.py" afterPath="$PROJECT_DIR$/advanced/Numpy常用/3.Numpy基础运算1.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/Numpy常用/__init__.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Prop/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/1.读取图片.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/1.读取图片.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/10.PIL和OpenCV图像转换.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/10.PIL和OpenCV图像转换.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/11.视频的读取显示和保存.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/11.视频的读取显示和保存.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/12.保存视频.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/12.保存视频.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/2.获取图像的属性.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/2.获取图像的属性.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/3.生成指定大小的空图片.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/3.生成指定大小的空图片.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/4.cvtColor.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/4.cvtColor.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/4.cvtColor2.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/4.cvtColor2.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/4.访问和操作图像像素.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/4.访问和操作图像像素.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/5.图片的缩放与换色.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/5.图片的缩放与换色.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/6.图像ROI（region of interest）.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/6.图像ROI（region of interest）.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/7.转换颜色空间.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/7.转换颜色空间.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/8.几何变换之平移.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/8.几何变换之平移.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/8.几何变换之旋转.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/8.几何变换之旋转.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/8.几何变换之缩放.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/8.几何变换之缩放.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/9,绘图.py" afterPath="$PROJECT_DIR$/advanced/opencv使用/9,绘图.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/__init__.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Xml/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/ball.jpg" afterPath="$PROJECT_DIR$/advanced/opencv使用/ball.jpg" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/state.png" afterPath="$PROJECT_DIR$/advanced/opencv使用/state.png" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/test.jpg" afterPath="$PROJECT_DIR$/advanced/opencv使用/test.jpg" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/test1.png" afterPath="$PROJECT_DIR$/advanced/opencv使用/test1.png" />
+      <change beforePath="$PROJECT_DIR$/常用库/opencv使用/test_new.png" afterPath="$PROJECT_DIR$/advanced/opencv使用/test_new.png" />
+      <change beforePath="$PROJECT_DIR$/常用库/pandas使用/1.基本使用.py" afterPath="$PROJECT_DIR$/advanced/pandas使用/1.基本使用.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/pandas使用/2.基本使用.py" afterPath="$PROJECT_DIR$/advanced/pandas使用/2.基本使用.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/pandas使用/3.基本使用.py" afterPath="$PROJECT_DIR$/advanced/pandas使用/3.基本使用.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/pandas使用/4.显示图形.py" afterPath="$PROJECT_DIR$/advanced/pandas使用/4.显示图形.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/pandas使用/5.显示图形.py" afterPath="$PROJECT_DIR$/advanced/pandas使用/5.显示图形.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/pandas使用/__init__.py" afterPath="$PROJECT_DIR$/basic/文件读写/解析Yaml/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/pandas使用/abc.csv" afterPath="$PROJECT_DIR$/advanced/pandas使用/abc.csv" />
+      <change beforePath="$PROJECT_DIR$/常用库/requests库/1. 基础用法.py" afterPath="$PROJECT_DIR$/advanced/requests库/1. 基础用法.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/requests库/2. post.py" afterPath="$PROJECT_DIR$/advanced/requests库/2. post.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/requests库/3. 会话维持.py" afterPath="$PROJECT_DIR$/advanced/requests库/3. 会话维持.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/requests库/4. status_code.py" afterPath="$PROJECT_DIR$/advanced/requests库/4. status_code.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/requests库/5. 证书.py" afterPath="$PROJECT_DIR$/advanced/requests库/5. 证书.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/requests库/6. 代理.py" afterPath="$PROJECT_DIR$/advanced/requests库/6. 代理.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/requests库/7. 异常处理.py" afterPath="$PROJECT_DIR$/advanced/requests库/7. 异常处理.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/requests库/8. 认证.py" afterPath="$PROJECT_DIR$/advanced/requests库/8. 认证.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/requests库/__init__.py" afterPath="$PROJECT_DIR$/basic/装饰器/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/requests库/res_content.json" afterPath="$PROJECT_DIR$/advanced/requests库/res_content.json" />
+      <change beforePath="$PROJECT_DIR$/常用库/requests库/test.py" afterPath="$PROJECT_DIR$/advanced/requests库/test.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/1. Hello.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/1. Hello.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/2. MonkeyTool.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/2. MonkeyTool.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/5. 登录Demo.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/5. 登录Demo.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/TK.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/TK.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/TK测试.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/TK测试.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/demo.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/demo.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/gui.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/gui.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/gui2.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/gui2.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/tkinter使用2.py" afterPath="$PROJECT_DIR$/advanced/tkinter使用/tkinter使用2.py" />
+      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/usrs_info.pickle" afterPath="$PROJECT_DIR$/advanced/tkinter使用/usrs_info.pickle" />
+      <change beforePath="$PROJECT_DIR$/常用库/tkinter使用/welcome.gif" afterPath="$PROJECT_DIR$/advanced/tkinter使用/welcome.gif" />
+      <change beforePath="$PROJECT_DIR$/爬虫/ToutiaoJiePai.py" afterPath="$PROJECT_DIR$/crawler/ToutiaoJiePai.py" />
+      <change beforePath="$PROJECT_DIR$/爬虫/__init__.py" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,60 +197,7 @@
     <SUITE FILE_PATH="coverage/cmall$taidu.coverage" NAME="taidu Coverage Results" MODIFIED="1514371012160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1.读取图片.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/1.读取图片.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-              <folding>
-                <element signature="e#17#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2.提取彩色图像三通道.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/2.提取彩色图像三通道.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4.cvtColor.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/4.cvtColor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3..py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/3..py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4.cvtColor2.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/4.cvtColor2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -103,6 +211,9 @@
       <find>page_</find>
       <find>&gt;&gt;&gt;</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -228,30 +339,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Python学习汇总" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python学习汇总" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="常用库" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python学习汇总" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python" type="462c0819:PsiDirectoryNode" />
-              <item name="常用库" type="462c0819:PsiDirectoryNode" />
-              <item name="opencv使用" type="462c0819:PsiDirectoryNode" />
+              <item name="Python学习" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -369,25 +469,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="百度登录" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Python/http" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python学习汇总" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Python/http/百度登录.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="3." type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -440,6 +521,25 @@
       <module name="Python学习汇总" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/进阶/Set用法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="百度登录" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Python/http" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python学习汇总" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Python/http/百度登录.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -539,19 +639,18 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.随机数" />
-      <item index="1" class="java.lang.String" itemvalue="Python.SessionDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Python.百度登录" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Set用法" />
+      <item index="1" class="java.lang.String" itemvalue="Python.随机数" />
+      <item index="2" class="java.lang.String" itemvalue="Python.SessionDemo" />
       <item index="3" class="java.lang.String" itemvalue="Python.1.读取图片" />
       <item index="4" class="java.lang.String" itemvalue="Python.3." />
     </list>
     <recent_temporary>
-      <list size="5">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Python.3." />
         <item index="1" class="java.lang.String" itemvalue="Python.1.读取图片" />
-        <item index="2" class="java.lang.String" itemvalue="Python.百度登录" />
-        <item index="3" class="java.lang.String" itemvalue="Python.SessionDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Python.随机数" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SessionDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Python.随机数" />
       </list>
     </recent_temporary>
   </component>
@@ -576,19 +675,17 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35501066" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="295" height="554" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17495987" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21139896" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17495987" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17217484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17377399" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33707866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39967898" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="SFDX" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -598,7 +695,9 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35501066" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="295" height="554" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33707866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Log Manager" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -613,41 +712,8 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Python/test/Android.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-57">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/script/MySqlHelper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/test/继承.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11280">
-          <caret line="579" column="19" lean-forward="false" selection-start-line="579" selection-start-column="8" selection-end-line="579" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Lib/site-packages/appium/webdriver/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8660">
-          <caret line="447" column="8" lean-forward="false" selection-start-line="447" selection-start-column="8" selection-end-line="447" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/python/Lib/site-packages/selenium/webdriver/remote/webdriver.py" />
+    <entry file="file://D:/python/Lib/site-packages/appium/webdriver/webdriver.py" />
     <entry file="file://$PROJECT_DIR$/../AppiumForPython/temp/AppiumAPI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -655,351 +721,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/Argparse使用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/基础/解析文本/读写文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/Numpy常用/1.Numpy属性.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/python/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="320" column="0" lean-forward="false" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/常用库/Argparse使用.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/基础/解析文本/读写文件.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/常用库/Numpy常用/1.Numpy属性.py" />
+    <entry file="file://D:/python/Lib/codecs.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/numpy/core/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="3519" column="8" lean-forward="false" selection-start-line="3519" selection-start-column="8" selection-end-line="3519" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/pickle_example.pickle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/Pickle使用.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/全局变量用法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/Numpy常用/3.Numpy基础运算1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="33" column="33" lean-forward="false" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/Numpy常用/2.Numpy创建array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="66" column="37" lean-forward="false" selection-start-line="66" selection-start-column="37" selection-end-line="66" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/基础/list专辑/随机数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/常用库/下载文件/下载.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/基础/list专辑/list的切片.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/基础/list专辑/list常见用法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/常用库/基础数据结构/数据结构.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/基础/解析文本/解析Json格式文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/基础/解析文本/解析Yaml格式文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/基础/解析文本/解析xml格式文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/基础/常用遍历/Python循环.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/taidu/在线素材.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="28" column="33" lean-forward="false" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/sdk/homedata.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1980">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/sdk/解析homedata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-320">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/http/sfsf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/taidu/新定制页面.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/http/百度登录.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/http/urllib发送请求.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/http/SessionDemo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/http/cookie.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/http/3_从文件中获取Cookie并访问.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/http/2_保存Cookie到文件.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/http/1_将Cookie保存到变量中.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-134">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/appium/taidu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/sdk/检查模型包是否一致.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/sdk/接口中所有图片.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" column="44" lean-forward="true" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/sdk/正则.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/Set用法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/常用库/pickle_example.pickle" />
+    <entry file="file://$PROJECT_DIR$/../Python/常用库/Pickle使用.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/常用库/全局变量用法.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/常用库/Numpy常用/3.Numpy基础运算1.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/常用库/Numpy常用/2.Numpy创建array.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/基础/list专辑/随机数.py" />
+    <entry file="file://$PROJECT_DIR$/常用库/下载文件/下载.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/基础/list专辑/list的切片.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/基础/list专辑/list常见用法.py" />
+    <entry file="file://$PROJECT_DIR$/常用库/基础数据结构/数据结构.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/基础/解析文本/解析Json格式文件.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/基础/解析文本/解析Yaml格式文件.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/基础/解析文本/解析xml格式文件.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/基础/常用遍历/Python循环.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/taidu/在线素材.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/sdk/homedata.json" />
+    <entry file="file://$PROJECT_DIR$/../Python/sdk/解析homedata.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/http/sfsf.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/taidu/新定制页面.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/http/百度登录.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/http/urllib发送请求.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/http/SessionDemo.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/http/cookie.txt" />
+    <entry file="file://$PROJECT_DIR$/../Python/http/3_从文件中获取Cookie并访问.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/http/2_保存Cookie到文件.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/http/1_将Cookie保存到变量中.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/appium/taidu.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/sdk/检查模型包是否一致.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/sdk/接口中所有图片.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/sdk/正则.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/常用库/Set用法.py" />
     <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/-287100998/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3170">
           <caret line="7022" column="58" lean-forward="false" selection-start-line="7022" selection-start-column="51" selection-end-line="7022" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Python/appium/testdemo.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/test.jpg" />
+    <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/test1.png" />
+    <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/1.读取图片.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/2.提取彩色图像三通道.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/4.cvtColor2.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/4.cvtColor.py" />
+    <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/3..py" />
+    <entry file="file://$PROJECT_DIR$/script/Play图片访问.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/appium/testdemo.py">
+    <entry file="file://$PROJECT_DIR$/script/MySqlHelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="5" column="33" lean-forward="false" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/test.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/test1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/1.读取图片.py">
+    <entry file="file://$PROJECT_DIR$/script/modelJson.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding>
-            <element signature="e#17#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/2.提取彩色图像三通道.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/4.cvtColor2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/4.cvtColor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Python/常用库/opencv使用/3..py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
