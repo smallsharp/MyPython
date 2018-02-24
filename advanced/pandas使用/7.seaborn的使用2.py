@@ -16,7 +16,7 @@ oo = pd.read_csv("olympics.csv", skiprows=4)
 
 """第一步：先筛选出08年 中国队的数据"""
 chn = oo[(oo.Edition==2008)&(oo.NOC=="CHN")]
-print(chn.head(10))
+# print(chn.head(10))
 
 """第二步：使用pyplot 显示统计数据"""
 # t1 = chn.Gender.value_counts().plot(kind="bar")

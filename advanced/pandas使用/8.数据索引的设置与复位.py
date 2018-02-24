@@ -23,7 +23,7 @@ ath = oo.set_index("Athlete") # 将运动员姓名作为索引
 # print(ath.head())
 
 """
-2.修改原数据索引 inplace
+2.修改原数据索引 inplace 表示是否替换原数据
 """
 oo.set_index("Athlete",inplace=True)
 print(oo.head())
