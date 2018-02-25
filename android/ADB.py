@@ -5,19 +5,58 @@ Created on 2017年9月29日
 '''
 import os, subprocess, sys, re, time
 
-    
+dev_list = []
+
+
+def get_devices():
+    devices = []
+    result = subprocess.Popen("adb devices", shell=True, stdout=subprocess.PIPE,
+                              stderr=subprocess.PIPE).stdout.readlines()
+    # print(result[1].decode())
+    print(len(result))
+    if len(result) - 2 == 1:
+        for line in result[1:]:
+            devices.append(line.strip().decode())
+        print(devices[0].split()[0])
+        return devices[0].split()[0]
+    else:
+        print('No device')
+        return 'No device found'
+
+
 def get_pss(devices, pkg_name):
-    
     cmd = "adb -s " + devices + " shell  dumpsys  meminfo %s" % (pkg_name)
     print("cmd:", cmd)
-#     res = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE,stderr=subprocess.PIPE).stdout.readlines()
-#     print("res:",res)
     output = subprocess.check_output(cmd).split()
+    # output = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE).stdout.readlines()
     s_men = ".".join([x.decode() for x in output])  # 转换为string
     print("s_men:", s_men)
     men2 = int(re.findall("TOTAL.(\d+)*", s_men, re.S)[0])
     print("men2:", men2)
-    
+
+
+def mem(device, package):
+    cmd = 'adb -s ' + device + ' shell dumpsys meminfo ' + package
+    print(cmd)
+    res = os.popen(cmd).read()
+    part = res[res.find("TOTAL"):res.find("Objects")] # TOTAL   161474   148660     8540        0   175791   160807    14983
+    print(part.split()[1])
+    return int(part.split()[1])/1024
+
+def mem2(device,package):
+
+    cmd = 'adb -s ' + device + ' shell dumpsys meminfo ' + package
+    print(cmd)
+    res = subprocess.check_output(cmd).split()
+    print(type(res),res)
+    res = ".".join([x.decode() for x in res])
+    # print(res)
+    mem = int(re.findall("TOTAL.(\d+)*", res, re.S)[0])
+    print("new:",mem)
+    print("-"*100)
+    return mem
+
+
 # def get_battery(devices):
 #     cmd = "adb -s " + devices + " shell dumpsys battery"
 #     print(cmd)
@@ -55,8 +94,8 @@ def get_flow(pid, type, devices):
     else:
         _flow1[0].append(0)
         _flow1[1].append(0)
-        
-        
+
+
 def get_cpu_kel(devices):
     cmd = "adb -s " + devices + " shell cat /proc/cpuinfo"
     print(cmd)
@@ -115,6 +154,8 @@ def totalCpuTime(devices):
 '''
 每一个进程快照
 '''
+
+
 def processCpuTime(pid, devices):
     '''
 
@@ -167,8 +208,8 @@ def cpu_rate(pid, cpukel, devices):
 
     cpu = 100 * (processCpuTime3) / (totalCpuTime3)
     print(cpu)
-    
-    
+
+
 # def get_fps(pkg_name, devices):
 #     _adb = "adb -s " + devices + " shell dumpsys gfxinfo %s" % pkg_name
 #     print(_adb)
@@ -210,8 +251,15 @@ def cpu_rate(pid, cpukel, devices):
 #     # return (frame_count, jank_count, fps)
 #     print("-----fps------")
 #     print(_fps)
-    
-    
+
+
 if __name__ == '__main__':
-#     get_flow("10138", 'wifi', "06694a9b006097fb");
-    get_pss("85GBBMA2353T", "com.tude.android")
+    #     get_flow("10138", 'wifi', "06694a9b006097fb");
+    # get_pss("85GBBMA2353T", "com.jingdong.app.mall")
+    # get_pss("85GBBMA2353T", "com.tude.android")
+    # mems = mem("85GBBMA2353T", "com.jingdong.app.mall")
+    mems = mem2("85GBBMA2353T", "com.jingdong.app.mall")
+    # print(mems)
+    # file = open("men2.txt","w")
+    # file.write(mems)
+    # file.close()

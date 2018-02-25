@@ -6,6 +6,9 @@ a.upper()  # 'LIFE IS SHORT, YOU NEED PYTHON'
 
 a.count('i')  # 出现的次数,2
 
+"""
+查找字符串的下标
+"""
 a.find('e')  # 从左向右查找'e'的下标, 3
 a.rfind('need')  # 从右向左查找'need'的下标, 19
 
@@ -19,6 +22,7 @@ print(tokens)
 join() 用指定分隔符按顺序把字符串列表组合成新字符串
 tokens:['Life', 'is', 'short,', 'you', 'need', 'Python']
 """
+print("token:",tokens)
 new = " ".join(tokens)  # Life is short, you need Python
 print(new)
 

@@ -4,12 +4,12 @@ import subprocess
 
 # 使用os.popen(cmd)获取返回结果
 res = os.popen("adb devices")
-print(res.read()) # List of devices attached
+# print(res.read()) # List of devices attached
 
 
 # 使用os.popen(cmd)获取返回结果
 # res = os.popen("adb shell monkey 100")
-print(res.read())
+# print(res.read())
 
 
 """
@@ -24,7 +24,7 @@ fhandle.close()
 """
 例2.使用管道输出执行结果
 """
-pipe = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE).stdout
-print (pipe.read())
-
+pipe1 = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE,stderr=subprocess.PIPE).stdout.readlines()
+# s = bytes.decode(pipe.read(),encoding="gbk")
+# print(pipe1)
 
