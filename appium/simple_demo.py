@@ -39,9 +39,6 @@ time.sleep(2)
 driver.press_keycode(keycode=3)
 print("click home button")
 
-
-
-
 # after all
 driver.quit()
 server.kill()

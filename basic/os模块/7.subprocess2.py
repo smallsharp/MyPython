@@ -5,9 +5,11 @@ import subprocess
 # start server
 appium_path = r"D:\nodejs\new_modules\appium.cmd"
 server_cmd = appium_path + ' -p 26270 -bp 27235 -U 85GBBMA2353T --local-timezone  --command-timeout 1200 --log-timestamp  --session-override '
-# server = subprocess.Popen(server_cmd)
-import os
-server = os.system(server_cmd)
+server = subprocess.Popen(server_cmd)
+server.wait()
+
+if server.returncode != 0:
+    print("Error")
 
 # print(server.pid)
 print("ok"*20)
