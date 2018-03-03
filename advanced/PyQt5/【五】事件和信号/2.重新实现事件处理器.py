@@ -1,15 +1,4 @@
 #coding=utf-8
-"""
-pyu40 PyQt5 tutorial
-
-In this example, we reimplement an
-event handler.
-
-author: Jan Bodnar
-website: py40.com
-last edited: January 2015
-"""
-
 import sys
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QWidget, QApplication

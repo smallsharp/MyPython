@@ -30,17 +30,17 @@ class Example(QWidget):
         self.setWindowTitle('Message box')
         self.show()
 
+
+    # 我们关闭窗口的时候,触发了QCloseEvent,重写closeEvent()事件处理程序
     def closeEvent(self, event):
 
-        reply = QMessageBox.question(self, 'Message',
-                                     "Are you sure to quit?", QMessageBox.Yes |
-                                     QMessageBox.No, QMessageBox.No)
+        # 标题，文本，选项1|选项2
+        reply = QMessageBox.question(self, 'Message',"Are you sure to quit?", QMessageBox.Yes | QMessageBox.No | QMessageBox.Retry)
 
         if reply == QMessageBox.Yes:
             event.accept()
         else:
             event.ignore()
-
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

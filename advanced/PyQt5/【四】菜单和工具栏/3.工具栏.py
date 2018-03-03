@@ -24,16 +24,23 @@ class Example(QMainWindow):
         self.initUI()
 
     def initUI(self):
-        exitAction = QAction(QIcon('exit24.png'), 'Exit', self)
+        exitAction = QAction(QIcon('../exit.jpg'), 'Exit', self)
         exitAction.setShortcut('Ctrl+Q')
         exitAction.triggered.connect(qApp.quit)
+        # exitAction.triggered.connect(self.printOk)
 
+        # 创建一个简单的工具栏
         self.toolbar = self.addToolBar('Exit')
+
+        # 添加事件
         self.toolbar.addAction(exitAction)
 
         self.setGeometry(300, 300, 300, 200)
         self.setWindowTitle('Toolbar')
         self.show()
+
+    def printOk(self):
+        print("ok")
 
 
 if __name__ == '__main__':

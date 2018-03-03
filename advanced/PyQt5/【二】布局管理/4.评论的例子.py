@@ -1,20 +1,5 @@
 #coding=utf-8
 
-"""
-Py40 PyQt5 tutorial
-
-In this example, we create a bit
-more complicated window layout using
-the QGridLayout manager.
-
-控件可以在网格中跨越多个行或列。在下一个示例中,我们说明了这一点。
-
-
-author: Jan Bodnar
-website: py40.com
-last edited: January 2015
-"""
-
 import sys
 from PyQt5.QtWidgets import (QWidget, QLabel, QLineEdit,
                              QTextEdit, QGridLayout, QApplication)
@@ -32,10 +17,14 @@ class Example(QWidget):
         author = QLabel('Author')
         review = QLabel('Review')
 
+        # 行编辑器
         titleEdit = QLineEdit()
         authorEdit = QLineEdit()
+        # 文本编辑器
         reviewEdit = QTextEdit()
 
+
+        # 创建一个网格布局和设置组件之间的间距
         grid = QGridLayout()
         grid.setSpacing(10)
 
@@ -46,6 +35,8 @@ class Example(QWidget):
         grid.addWidget(authorEdit, 2, 1)
 
         grid.addWidget(review, 3, 0)
+
+        # 在添加一个小的控件到网格的时候,我们可以提供小部件的行和列跨,reviewEdit控件跨度5行
         grid.addWidget(reviewEdit, 3, 1, 5, 1)
 
         self.setLayout(grid)

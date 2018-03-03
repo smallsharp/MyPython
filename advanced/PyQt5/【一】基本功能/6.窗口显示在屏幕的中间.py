@@ -1,21 +1,13 @@
 #coding=utf-8
-"""
-Py40 PyQt5 tutorial
-
-This program centers a window
-on the screen.
-下面的脚本显示了如何在屏幕中心显示窗口。
-
-
-author: Jan Bodnar
-website: py40.com
-last edited: January 2015
-"""
 
 import sys
 from PyQt5.QtWidgets import QWidget, QDesktopWidget, QApplication
 
 
+
+"""
+QtGui,QDesktopWidget类提供了用户的桌面信息,包括屏幕大小。
+"""
 class Example(QWidget):
 
     def __init__(self):
@@ -24,7 +16,7 @@ class Example(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.resize(250, 150)
+        self.resize(400, 250)
         self.center()
 
         self.setWindowTitle('Center')

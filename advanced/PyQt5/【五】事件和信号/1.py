@@ -1,13 +1,10 @@
-#coding=utf-8
+# coding=utf-8
 
 
 """
 事件 Event
-
-
-所有的GUI程序都是事件驱动的。
-事件主要由用户触发，但也可能有其他触发方式：例如网络连接、window manager或定时器。
-当我们调用QApplication的exec_()方法时会使程序进入主循环。
+所有的GUI程序都是事件驱动的，事件主要由用户触发，但也可能有其他触发方式：例如网络连接、window manager或定时器。
+当我们调用QApplication的exec_()方法时会使程序进入主循环
 主循环会获取并分发事件。
 
 
@@ -20,34 +17,24 @@
 
 PyQt5有一个独特的signal&slot(信号槽)机制来处理事件。信号槽用于对象间的通信。signal在某一特定事件发生时被触发，slot可以是任何callable对象。当signal触发时会调用与之相连的slot。
 
+"""
+
+"""
 信号槽 Signals & slots
 
+这个例子中展示了一个QtGui.QLCDNumber和QtGui.QSlider。lcd的值会随着滑块的拖动而改变。
+sender是发出信号的对象。receiver是接收信号的对象。slot(插槽)是对信号做出反应的方法。
 
-
-"""
-
-"""
-Py40 PyQt5 tutorial 
-
-In this example, we connect a signal
-of a QSlider to a slot of a QLCDNumber. 
-
-author: Jan Bodnar
-website: py40.com 
-last edited: January 2015
 """
 
 import sys
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import (QWidget, QLCDNumber, QSlider,
-                             QVBoxLayout, QApplication)
-
+from PyQt5.QtWidgets import (QWidget, QLCDNumber, QSlider, QVBoxLayout, QApplication)
 
 class Example(QWidget):
 
     def __init__(self):
         super().__init__()
-
         self.initUI()
 
     def initUI(self):
@@ -59,20 +46,14 @@ class Example(QWidget):
         vbox.addWidget(sld)
 
         self.setLayout(vbox)
+
+        # 在这里我们将滚动条的valueChanged信号连接到lcd的display插槽
         sld.valueChanged.connect(lcd.display)
 
         self.setGeometry(300, 300, 250, 150)
         self.setWindowTitle('Signal & slot')
         self.show()
 
-
-
-"""
-这个例子中展示了一个QtGui.QLCDNumber和QtGui.QSlider。lcd的值会随着滑块的拖动而改变。
-在这里我们将滚动条的valueChanged信号连接到lcd的display插槽。
-sender是发出信号的对象。receiver是接收信号的对象。slot(插槽)是对信号做出反应的方法。
-
-"""
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = Example()

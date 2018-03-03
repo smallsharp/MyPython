@@ -2,15 +2,6 @@
 
 
 """
-Py40 PyQt5 tutorial
-
-This example shows three labels on a window
-using absolute positioning.
-
-author: Jan Bodnar
-website: py40.com
-last edited: January 2015
-
 绝对定位
 
 程序指定每个控件的位置和大小(以像素为单位)。
@@ -26,16 +17,16 @@ last edited: January 2015
 import sys
 from PyQt5.QtWidgets import QWidget, QLabel, QApplication
 
-
 class Example(QWidget):
 
     def __init__(self):
         super().__init__()
-
         self.initUI()
 
     def initUI(self):
         lbl1 = QLabel('Zetcode', self)
+
+        # 使用move()方法来控制控件的位置。
         lbl1.move(15, 10)
 
         lbl2 = QLabel('tutorials', self)
@@ -45,7 +36,7 @@ class Example(QWidget):
         lbl3.move(55, 70)
 
         self.setGeometry(300, 300, 250, 150)
-        self.setWindowTitle('Absolute')
+        self.setWindowTitle('绝对定位')
         self.show()
 
 

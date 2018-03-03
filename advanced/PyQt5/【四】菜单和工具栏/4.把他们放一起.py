@@ -2,16 +2,17 @@
 """
 Py40 PyQt5 tutorial
 
-This program creates a menubar. The
-menubar has one menu with an exit action.
-菜单栏是常见的窗口应用程序的一部分。(Mac OS将菜单条不同。得到类似的结果,我们可以添加以下行:menubar.setNativeMenuBar(假)。)
+This program creates a skeleton of
+a classic GUI application with a menubar,
+toolbar, statusbar, and a central widget.
+
 author: Jan Bodnar
 website: py40.com
 last edited: January 2015
 """
 
 import sys
-from PyQt5.QtWidgets import QMainWindow, QAction, qApp, QApplication
+from PyQt5.QtWidgets import QMainWindow, QTextEdit, QAction, QApplication
 from PyQt5.QtGui import QIcon
 
 
@@ -23,22 +24,27 @@ class Example(QMainWindow):
         self.initUI()
 
     def initUI(self):
-        exitAction = QAction(QIcon('exit.png'), '&Exit', self)
+
+        # 创建一个文本编辑器
+        textEdit = QTextEdit()
+        self.setCentralWidget(textEdit)
+
+        exitAction = QAction(QIcon('../exit.jpg'), 'Exit', self)
         exitAction.setShortcut('Ctrl+Q')
         exitAction.setStatusTip('Exit application')
-        exitAction.triggered.connect(qApp.quit)
+        exitAction.triggered.connect(self.close)
 
         self.statusBar()
 
-        # 创建一个菜单栏
         menubar = self.menuBar()
-        # 添加菜单
         fileMenu = menubar.addMenu('&File')
-        # 添加事件
         fileMenu.addAction(exitAction)
 
-        self.setGeometry(300, 300, 300, 200)
-        self.setWindowTitle('Menubar')
+        toolbar = self.addToolBar('Exit')
+        toolbar.addAction(exitAction)
+
+        self.setGeometry(300, 300, 350, 250)
+        self.setWindowTitle('Main window')
         self.show()
 
 

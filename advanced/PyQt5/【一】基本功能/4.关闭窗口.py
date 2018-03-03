@@ -1,23 +1,5 @@
 #coding=utf-8
 
-
-
-"""
-Py40 PyQt5 tutorial
-
-This program creates a quit
-button. When we press the button,
-the application terminates.
-
-
-关闭一个窗口可以点击标题栏上的X
-在下面的例子中，我们将展示我们如何通过编程来关闭窗口。
-
-author: Jan Bodnar
-website: py40.com
-last edited: January 2015
-"""
-
 import sys
 from PyQt5.QtWidgets import QWidget, QPushButton, QApplication
 from PyQt5.QtCore import QCoreApplication

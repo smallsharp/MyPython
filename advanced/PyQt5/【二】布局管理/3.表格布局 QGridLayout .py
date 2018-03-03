@@ -1,15 +1,4 @@
 #coding=utf-8
-"""
-Py40 PyQt5 tutorial
-
-In this example, we create a skeleton
-of a calculator using a QGridLayout.
-表格布局将空间划分为行和列。我们使用QGridLayout类创建一个网格布局。
-
-author: Jan Bodnar
-website: py40.com
-last edited: January 2015
-"""
 
 import sys
 from PyQt5.QtWidgets import (QWidget, QGridLayout,
@@ -26,7 +15,7 @@ class Example(QWidget):
     def initUI(self):
 
         grid = QGridLayout()
-        self.setLayout(grid)
+        self.setLayout(grid) # 设置网格布局
 
         names = ['Cls', 'Bck', '', 'Close',
                  '7', '8', '9', '/',
