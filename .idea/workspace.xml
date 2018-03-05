@@ -6,26 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4dda63ea-7ea5-4381-8897-90510d730ee5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/1.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【一】基本功能/1.简单的例子(附注释).py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/2.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【一】基本功能/2.应用程序的图标.py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/3.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【一】基本功能/3.显示提示语 .py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/4.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【一】基本功能/4.关闭窗口.py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/5.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【一】基本功能/5.消息框.py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/6.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【一】基本功能/6.窗口显示在屏幕的中间.py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/__init__.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/【五】事件和信号/1.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【五】事件和信号/1.py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/【五】事件和信号/2.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【五】事件和信号/2.重新实现事件处理器.py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/【五】事件和信号/3.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【五】事件和信号/3.事件发送者.py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/【五】事件和信号/4.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【五】事件和信号/4.发出信号.py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/【四】菜单和工具栏/1.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【四】菜单和工具栏/1.状态栏.py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/【四】菜单和工具栏/2.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【四】菜单和工具栏/2.菜单栏.py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/【四】菜单和工具栏/3.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【四】菜单和工具栏/3.工具栏.py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/【四】菜单和工具栏/4.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【四】菜单和工具栏/4.把他们放一起.py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/布局管理/1.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【二】布局管理/1.绝对定位.py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/布局管理/2.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【二】布局管理/2.框布局 Boxlayout .py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/布局管理/3.py" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/布局管理/4.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【二】布局管理/4.评论的例子.py" />
-      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/布局管理/__init__.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/【二】布局管理/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/advanced/PyQt5/控件/9.下拉列表 QComboBox.py" afterPath="$PROJECT_DIR$/advanced/PyQt5/控件/9.下拉列表 QComboBox.py" />
+      <change beforePath="$PROJECT_DIR$/android/ADB常用命令文档.md" afterPath="$PROJECT_DIR$/android/ADB常用命令文档.md" />
+      <change beforePath="$PROJECT_DIR$/android/AdbTools.py" afterPath="$PROJECT_DIR$/android/AdbTools.py" />
+      <change beforePath="$PROJECT_DIR$/android/men2.txt" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +33,7 @@
     <SUITE FILE_PATH="coverage/Python$Set.coverage" NAME="Set用法 Coverage Results" MODIFIED="1516613372271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/进阶" />
     <SUITE FILE_PATH="coverage/Python$list.coverage" NAME="list常见用法 Coverage Results" MODIFIED="1516625274744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/基础/list专辑" />
     <SUITE FILE_PATH="coverage/Python$6_QPixmap.coverage" NAME="6.QPixmap Coverage Results" MODIFIED="1519989071112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/PyQt5/控件" />
-    <SUITE FILE_PATH="coverage/Python$9__QComboBox.coverage" NAME="9.下拉列表 QComboBox Coverage Results" MODIFIED="1519989848942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/PyQt5/控件" />
+    <SUITE FILE_PATH="coverage/Python$9__QComboBox.coverage" NAME="9.下拉列表 QComboBox Coverage Results" MODIFIED="1520219952503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/PyQt5/控件" />
     <SUITE FILE_PATH="coverage/Python$4_cvtColor.coverage" NAME="4.cvtColor Coverage Results" MODIFIED="1516609200187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/进阶/CV2常用" />
     <SUITE FILE_PATH="coverage/Python$5_.coverage" NAME="5.消息框 Coverage Results" MODIFIED="1519979435524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/PyQt5/【一】基本功能" />
     <SUITE FILE_PATH="coverage/Python$py_test_for_testdemo_TestOpen_test_search.coverage" NAME="py.test for testdemo.TestOpen.test_search Coverage Results" MODIFIED="1519543705049" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium" />
@@ -74,15 +58,16 @@
     <SUITE FILE_PATH="coverage/Python$demo.coverage" NAME="demo Coverage Results" MODIFIED="1519817415032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/taidu" />
     <SUITE FILE_PATH="coverage/cmall$Numpyarray.coverage" NAME="Numpy创建array Coverage Results" MODIFIED="1516593248520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/常用参考/Numpy常用" />
     <SUITE FILE_PATH="coverage/Python$4_.coverage" NAME="4.把他们放一起 Coverage Results" MODIFIED="1519985839343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/PyQt5/【四】菜单和工具栏" />
-    <SUITE FILE_PATH="coverage/Python$Android.coverage" NAME="Android Coverage Results" MODIFIED="1519486107528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/android" />
     <SUITE FILE_PATH="coverage/Python$simple_demo.coverage" NAME="simple_demo Coverage Results" MODIFIED="1519629454089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appium" />
+    <SUITE FILE_PATH="coverage/Python$Android.coverage" NAME="Android设备基本信息 Coverage Results" MODIFIED="1520249285724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/android" />
     <SUITE FILE_PATH="coverage/Python$8_QSplitter.coverage" NAME="8.QSplitter Coverage Results" MODIFIED="1519989774119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/PyQt5/控件" />
     <SUITE FILE_PATH="coverage/Python$3_Numpy1.coverage" NAME="3.Numpy基础运算1 Coverage Results" MODIFIED="1519458033365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/Numpy常用" />
     <SUITE FILE_PATH="coverage/Python$6_seaborn1.coverage" NAME="6.seaborn的使用1 Coverage Results" MODIFIED="1519361182418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/pandas使用" />
     <SUITE FILE_PATH="coverage/Python$6_.coverage" NAME="6.窗口显示在屏幕的中间 Coverage Results" MODIFIED="1519979539245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/PyQt5/【一】基本功能" />
+    <SUITE FILE_PATH="coverage/Python$AdbTools.coverage" NAME="AdbTools Coverage Results" MODIFIED="1520249443455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/android" />
     <SUITE FILE_PATH="coverage/Python$ADB.coverage" NAME="ADB Coverage Results" MODIFIED="1519493803846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/android" />
     <SUITE FILE_PATH="coverage/Python$3.coverage" NAME="3 Coverage Results" MODIFIED="1519985370175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/PyQt5/【四】菜单和工具栏" />
-    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="类属性限制 Coverage Results" MODIFIED="1519575237404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/面向对象" />
+    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="测试类 Coverage Results" MODIFIED="1520239559456" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic/面向对象" />
     <SUITE FILE_PATH="coverage/Python$6.coverage" NAME="6 Coverage Results" MODIFIED="1519708300018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/PyQt5" />
     <SUITE FILE_PATH="coverage/Python$2__Toggle_button.coverage" NAME="2.开关按钮 Toggle button Coverage Results" MODIFIED="1519987026797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/advanced/PyQt5/控件" />
     <SUITE FILE_PATH="coverage/Python$String.coverage" NAME="测试String Coverage Results" MODIFIED="1516612729381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/进阶" />
@@ -126,120 +111,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3.滑动条 QSlider.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/PyQt5/控件/3.滑动条 QSlider.py">
+      <file leaf-file-name="关于继承.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/面向对象/关于继承.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
-              <folding>
-                <element signature="e#14#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="4.进度条QProgressBar.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/PyQt5/控件/4.进度条QProgressBar.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
-              <folding>
-                <element signature="e#16#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.日历控件 QCalendarWidget.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/PyQt5/控件/5.日历控件 QCalendarWidget.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="6.QPixmap.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/PyQt5/控件/6.QPixmap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="7.文本框 QLineEdit.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/PyQt5/控件/7.文本框 QLineEdit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="8.QSplitter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/PyQt5/控件/8.QSplitter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="9.下拉列表 QComboBox.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/advanced/PyQt5/控件/9.下拉列表 QComboBox.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="36" column="41" lean-forward="false" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-              <folding>
-                <element signature="e#16#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.简单的例子(附注释).py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/PyQt5/【一】基本功能/1.简单的例子(附注释).py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2.应用程序的图标.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/PyQt5/【一】基本功能/2.应用程序的图标.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="20" />
-              <folding>
-                <element signature="e#15#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="5.消息框.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/advanced/PyQt5/【一】基本功能/5.消息框.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="526">
-              <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+            <state relative-caret-position="420">
+              <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="测试类.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic/面向对象/测试类.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdbTools.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/AdbTools.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="503" column="34" lean-forward="false" selection-start-line="503" selection-start-column="27" selection-end-line="503" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ADB.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/android/ADB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3538">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ADB常用命令文档.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/ADB常用命令文档.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="340">
+                <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -260,6 +180,9 @@
       <find>&gt;&gt; &gt;</find>
       <find>TOTAL</find>
       <find>devices</find>
+      <find>ro.product.model</find>
+      <find>ro.product.name</find>
+      <find>分辨率</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -271,11 +194,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/advanced/PyQt5/布局管理/__init__.py" />
-        <option value="$PROJECT_DIR$/advanced/PyQt5/布局管理/2.py" />
-        <option value="$PROJECT_DIR$/advanced/PyQt5/布局管理/3.py" />
-        <option value="$PROJECT_DIR$/advanced/PyQt5/布局管理/4.py" />
-        <option value="$PROJECT_DIR$/advanced/PyQt5/【四】菜单和工具栏/2.py" />
         <option value="$PROJECT_DIR$/advanced/PyQt5/【四】菜单和工具栏/1.py" />
         <option value="$PROJECT_DIR$/advanced/PyQt5/【四】菜单和工具栏/3.py" />
         <option value="$PROJECT_DIR$/advanced/PyQt5/【四】菜单和工具栏/4.py" />
@@ -322,6 +240,11 @@
         <option value="$PROJECT_DIR$/advanced/PyQt5/控件/7.文本框 QLineEdit.py" />
         <option value="$PROJECT_DIR$/advanced/PyQt5/控件/8.QSplitter.py" />
         <option value="$PROJECT_DIR$/advanced/PyQt5/控件/9.下拉列表 QComboBox.py" />
+        <option value="$PROJECT_DIR$/basic/面向对象/关于继承.py" />
+        <option value="$PROJECT_DIR$/basic/面向对象/测试类.py" />
+        <option value="$PROJECT_DIR$/android/Android设备基本信息.py" />
+        <option value="$PROJECT_DIR$/android/AdbTools.py" />
+        <option value="$PROJECT_DIR$/android/ADB常用命令文档.md" />
       </list>
     </option>
   </component>
@@ -411,8 +334,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -423,54 +344,41 @@
             <path>
               <item name="Python学习汇总" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python学习" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="android" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python学习汇总" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python学习" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="PyQt5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python学习汇总" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python学习" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="PyQt5" type="462c0819:PsiDirectoryNode" />
-              <item name="【一】基本功能" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Python学习汇总" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Python学习" type="462c0819:PsiDirectoryNode" />
-              <item name="advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="PyQt5" type="462c0819:PsiDirectoryNode" />
-              <item name="控件" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/Anaconda3.5/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/workspace/PythonStation/Python学习/advanced/PyQt5/【四】菜单和工具栏/4.py" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\PythonStation\Python学习\advanced\PyQt5" />
-      <recent name="D:\workspace\PythonStation\Python学习\advanced\PyQt5\【一】基本功能" />
-      <recent name="D:\workspace\PythonStation\Python学习\advanced\机器学习" />
-      <recent name="D:\workspace\PythonStation\Python学习\basic\dict字典" />
-      <recent name="D:\workspace\PythonStation\Python学习\advanced\pandas使用" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\PythonStation\Python学习\basic\面向对象" />
       <recent name="D:\workspace\PythonStation\Python学习\advanced\PyQt5" />
       <recent name="D:\workspace\PythonStation\Python学习\advanced" />
       <recent name="D:\workspace\PythonStation\Python学习\advanced\机器学习" />
       <recent name="D:\workspace\PythonStation\Python学习\advanced\pandas使用" />
-      <recent name="D:\workspace\PythonStation\cmall\常用参考\CV2常用" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\PythonStation\Python学习\android" />
+      <recent name="D:\workspace\PythonStation\Python学习\advanced\PyQt5" />
+      <recent name="D:\workspace\PythonStation\Python学习\advanced\PyQt5\【一】基本功能" />
+      <recent name="D:\workspace\PythonStation\Python学习\advanced\机器学习" />
+      <recent name="D:\workspace\PythonStation\Python学习\basic\dict字典" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -485,7 +393,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.9.下拉列表 QComboBox">
+  <component name="RunManager" selected="Python.AdbTools">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -531,77 +439,39 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="ADDITIONAL_ARGS" value="" />
     </configuration>
-    <configuration name="3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="关于继承" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced/PyQt5/【六】对话框" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic/面向对象" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python学习" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced/PyQt5/【六】对话框/3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/面向对象/关于继承.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="5.日历控件 QCalendarWidget" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="测试类" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced/PyQt5/控件" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/basic/面向对象" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Python学习" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced/PyQt5/控件/5.日历控件 QCalendarWidget.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="6.QPixmap" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced/PyQt5/控件" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python学习" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced/PyQt5/控件/6.QPixmap.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="7.文本框 QLineEdit" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/advanced/PyQt5/控件" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Python学习" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced/PyQt5/控件/7.文本框 QLineEdit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/basic/面向对象/测试类.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -640,6 +510,44 @@
       <module name="Python学习" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced/PyQt5/控件/9.下拉列表 QComboBox.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="AdbTools" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/android" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python学习" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/android/AdbTools.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Android设备基本信息" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/android" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python学习" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/android/Android设备基本信息.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -739,19 +647,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.5.日历控件 QCalendarWidget" />
-      <item index="1" class="java.lang.String" itemvalue="Python.6.QPixmap" />
-      <item index="2" class="java.lang.String" itemvalue="Python.7.文本框 QLineEdit" />
-      <item index="3" class="java.lang.String" itemvalue="Python.8.QSplitter" />
-      <item index="4" class="java.lang.String" itemvalue="Python.9.下拉列表 QComboBox" />
+      <item index="0" class="java.lang.String" itemvalue="Python.9.下拉列表 QComboBox" />
+      <item index="1" class="java.lang.String" itemvalue="Python.关于继承" />
+      <item index="2" class="java.lang.String" itemvalue="Python.测试类" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Android设备基本信息" />
+      <item index="4" class="java.lang.String" itemvalue="Python.AdbTools" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.9.下拉列表 QComboBox" />
-        <item index="1" class="java.lang.String" itemvalue="Python.8.QSplitter" />
-        <item index="2" class="java.lang.String" itemvalue="Python.7.文本框 QLineEdit" />
-        <item index="3" class="java.lang.String" itemvalue="Python.6.QPixmap" />
-        <item index="4" class="java.lang.String" itemvalue="Python.5.日历控件 QCalendarWidget" />
+        <item index="0" class="java.lang.String" itemvalue="Python.AdbTools" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Android设备基本信息" />
+        <item index="2" class="java.lang.String" itemvalue="Python.测试类" />
+        <item index="3" class="java.lang.String" itemvalue="Python.关于继承" />
+        <item index="4" class="java.lang.String" itemvalue="Python.9.下拉列表 QComboBox" />
       </list>
     </recent_temporary>
   </component>
@@ -781,8 +689,8 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2147923" sideWeight="0.22447917" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2147923" sideWeight="0.77552086" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2147923" sideWeight="0.23072916" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2147923" sideWeight="0.76927084" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.39389068" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="22" y="246" width="1322" height="245" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -849,55 +757,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/basic/os模块/4. os.system用法.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/os模块/6.subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic/os模块/7.subprocess2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Anaconda3.5/Lib/site-packages/appium/webdriver/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/Key.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/AdbTools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="72" column="26" lean-forward="false" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/ADB.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/advanced/PyQt5/【六】对话框/1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -926,16 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/android/ADB常用命令文档.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="80">
-            <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appium/simple_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="771">
@@ -954,25 +803,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/advanced/PyQt5/untitled.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="34" column="67" lean-forward="true" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/advanced/PyQt5/untitled.py" />
     <entry file="file://$PROJECT_DIR$/advanced/机器学习/线性回归2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
           <caret line="100" column="27" lean-forward="true" selection-start-line="100" selection-start-column="27" selection-end-line="100" selection-end-column="27" />
-          <folding>
-            <element signature="e#15#46#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -980,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="872">
           <caret line="255" column="38" lean-forward="false" selection-start-line="255" selection-start-column="20" selection-end-line="255" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,9 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-          <folding>
-            <element signature="e#17#35#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -998,27 +832,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <element signature="e#16#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic/面向对象/类和类对象.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/面向对象/类和类对象.py" />
     <entry file="file://$PROJECT_DIR$/advanced/PyQt5/【五】事件和信号/1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="582">
           <caret line="59" column="12" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="12" />
-          <folding>
-            <element signature="e#515#525#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1034,9 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="e#14#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1044,9 +862,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="562">
           <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
-          <folding>
-            <element signature="e#16#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1054,7 +869,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,9 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="620">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1072,9 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1082,9 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1092,9 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="39" lean-forward="false" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,9 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#158#168#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1112,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="542">
           <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1120,9 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="502">
           <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1130,7 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1138,9 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#16#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1148,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="31" column="38" lean-forward="true" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1156,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="406">
           <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="36" column="22" lean-forward="false" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1180,9 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
-          <folding>
-            <element signature="e#16#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1190,18 +975,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="402">
           <caret line="57" column="34" lean-forward="true" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
-          <folding>
-            <element signature="e#14#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/PyQt5/控件/3.滑动条 QSlider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+        <state relative-caret-position="520">
+          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding>
-            <element signature="e#14#24#0" expanded="true" />
+            <element signature="e#14#24#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1211,7 +993,7 @@
         <state relative-caret-position="400">
           <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
           <folding>
-            <element signature="e#15#25#0" expanded="true" />
+            <element signature="e#15#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1221,35 +1003,35 @@
         <state relative-caret-position="280">
           <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="20" />
           <folding>
-            <element signature="e#15#25#0" expanded="true" />
+            <element signature="e#15#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/PyQt5/【一】基本功能/5.消息框.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
+        <state relative-caret-position="820">
+          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/PyQt5/控件/4.进度条QProgressBar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        <state relative-caret-position="1240">
+          <caret line="62" column="33" lean-forward="false" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
           <folding>
-            <element signature="e#16#26#0" expanded="true" />
+            <element signature="e#16#26#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/PyQt5/控件/5.日历控件 QCalendarWidget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="480">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
-            <element signature="e#15#25#0" expanded="true" />
+            <element signature="e#15#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1257,19 +1039,19 @@
     <entry file="file://$PROJECT_DIR$/advanced/PyQt5/控件/6.QPixmap.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="19" column="29" lean-forward="true" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
-            <element signature="e#15#25#0" expanded="true" />
+            <element signature="e#15#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/PyQt5/控件/7.文本框 QLineEdit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="160">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#15#25#0" expanded="true" />
+            <element signature="e#15#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1279,18 +1061,85 @@
         <state relative-caret-position="180">
           <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding>
-            <element signature="e#15#25#0" expanded="true" />
+            <element signature="e#15#25#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/advanced/PyQt5/控件/9.下拉列表 QComboBox.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="36" column="41" lean-forward="false" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        <state relative-caret-position="280">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
           <folding>
-            <element signature="e#16#26#0" expanded="true" />
+            <element signature="e#17#27#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/面向对象/关于继承.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic/面向对象/测试类.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/Android设备基本信息.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/build.prop">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/AndroidTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/AdbTools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="503" column="34" lean-forward="false" selection-start-line="503" selection-start-column="27" selection-end-line="503" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/ADB常用命令文档.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="340">
+            <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/ADB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3538">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

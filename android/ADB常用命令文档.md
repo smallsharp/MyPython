@@ -14,4 +14,7 @@
 `aapt dump xmltree xxx.apk AndroidManifest.xml`
 
 
-###2. 测试使用
+###2. 获取屏幕分辨率
+adb shell wm size
+
+###3.
