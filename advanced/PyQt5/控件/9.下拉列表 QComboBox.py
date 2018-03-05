@@ -1,9 +1,8 @@
-#coding=utf-8
+# coding=utf-8
 
 
 import sys
-from PyQt5.QtWidgets import (QWidget, QLabel,
-                             QComboBox, QApplication)
+from PyQt5.QtWidgets import (QWidget, QLabel, QComboBox, QApplication)
 
 
 class Example(QWidget):
@@ -14,7 +13,6 @@ class Example(QWidget):
 
     def initUI(self):
         self.lbl = QLabel("Ubuntu", self)
-
 
         # 创建了一个有五个选项的QComboBox
         combo = QComboBox(self)

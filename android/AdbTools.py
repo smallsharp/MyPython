@@ -746,12 +746,16 @@ class AdbTools(object):
                                   os.path.join(os.path.expanduser('~'), '%s.apk' % package))
 
 if __name__ == '__main__':
-    a = AdbTools('LE67A06310143950')
-    print(a.get_device_id())
-    print(a.get_current_package())
-    print(a.get_device_ip_address())
-    a.send_keyevent(keycode=KeyCode.KEYCODE_HOME)
-    a.get_wifi_state()
-    # a.open_url("www.baidu.com")
-    s = a.get_device_external_sdcard()
-    print(s)
+    # a = AdbTools('LE67A06310143950')
+    # print(a.get_device_id())
+    # print(a.get_current_package())
+    # print(a.get_device_ip_address())
+    # a.send_keyevent(keycode=KeyCode.KEYCODE_HOME)
+    # a.get_wifi_state()
+    # # a.open_url("www.baidu.com")
+    # s = a.get_device_external_sdcard()
+    # print(s)
+
+    device = AdbTools()
+
+    print(device.get_screen_normal_size())
