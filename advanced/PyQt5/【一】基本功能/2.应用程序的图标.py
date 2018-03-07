@@ -16,7 +16,7 @@ class Example(QWidget):
         self.setGeometry(300, 300, 400, 200)
 
         # 设置窗口的标题
-        self.setWindowTitle('Test')
+        self.setWindowTitle('Android实用小工具')
 
         # 设置窗口的图标，引用当前目录下的web.png图片
         self.setWindowIcon(QIcon('../icon.jpg'))
