@@ -16,10 +16,10 @@ class Example(QWidget):
         self.initUI()
 
     def initUI(self):
+
         okButton = QPushButton("OK")
         cancelButton = QPushButton("Cancel")
         ignoreButton = QPushButton("Ignore")
-
 
         # 创建一个水平布局和添加一个伸展因子和两个按钮。两个按钮前的伸展增加了一个可伸缩的空间。这将推动他们靠右显示
         hbox = QHBoxLayout()

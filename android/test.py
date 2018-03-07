@@ -1,7 +1,5 @@
 #coding=utf-8
 
-
-
 res = ['List of devices attached\n', 'LE67A06310143950\tdevice\n', '\n']
 
 

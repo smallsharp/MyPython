@@ -15,5 +15,13 @@ ro.serialno
 ro.sf.lcd_density
 """
 
-res = os.popen("adb shell getprop ro.product.model")
-print(res.read())
+cmd1 = "adb shell getprop ro.product.model"
+cmd2 = "adb shell getprop ro.product.name"
+
+
+model = os.popen(cmd1)
+# print(res.read())
+
+name =os.popen(cmd2)
+print(name.read())
+

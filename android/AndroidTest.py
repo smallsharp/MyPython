@@ -1,12 +1,22 @@
 # coding=utf-8
+
 import os
 
-
 class AndroidTool:
+    """
+    Android 命令行工具合集，只适用于单一设备操作
+    """
 
-    def __init__(self):
+    def __init__(self, device=None):
+        """
+        初始化设备
+        :param device:默认为空，使用默认连接的第一个设备，如果传，则使用传入的设备
+        """
         self.__adb_path = self.__get_adb_path()
-        self.__device_id = self.default_device()
+        if not device:
+            self.__device_id = self.default_device()
+        else:
+            self.__device_id = device
 
     def default_device(self):
         return self.get_devices()[0]
@@ -83,15 +93,7 @@ class AndroidTool:
         if 'Failure' in lines:
             print("install failed!")
 
-
 if __name__ == '__main__':
-    # tool = AndroidTool("LE67A06310143950")
-    tool = AndroidTool()
-
-    # print(tool.default_device())
-
-    for device in tool.get_devices():
-        # tool.install("app-debug.apk", device=device)
-        tool.install(device=device,path="app-debug.apk")
-
-
+    # adb = AndroidTool()
+    adb = AndroidTool(device="b272eea9")
+    print(adb.get_devices())
