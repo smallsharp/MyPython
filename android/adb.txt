@@ -1,0 +1,6 @@
+1.获取Android手机基本信息,配置信息存在/system/build.prop
+adb shell cat /system/build.prop
+获取其中某个值
+adb shell getprop ro.build.version.release    #系统版本 6.0
+adb shell getprop ro.product.brand # 品牌
+adb shell getprop ro.build.product # 产品型号

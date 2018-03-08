@@ -13,7 +13,7 @@ class AndroidTool(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.setWindowTitle('PyQt5布局示例')
+        self.setWindowTitle('Android小工具')
 
         # 开始：
         wlayout = QtWidgets.QVBoxLayout()  # 全局布局（1个）：垂直布局
@@ -23,20 +23,22 @@ class AndroidTool(QWidget):
         glayout = QtWidgets.QGridLayout()
         flayout = QtWidgets.QFormLayout()
 
-        hlayout.addWidget(QtWidgets.QPushButton("检查设备"))
+        hlayout.addWidget(QtWidgets.QPushButton("刷新设备"))
         hlayout.addWidget(QtWidgets.QLineEdit("已连接"))
         hlayout.addWidget(QtWidgets.QLabel("  "))
 
-        hlayout.addWidget(QtWidgets.QPushButton("当前应用包名"))
-        hlayout.addWidget(QtWidgets.QLineEdit(""))
+        hlayout.addWidget(QtWidgets.QPushButton("设备序列号"))
+        hlayout.addWidget(QtWidgets.QLineEdit("xxxxxxx"))
+
+
         glayout.setSpacing(10)
-        glayout.addWidget(QtWidgets.QLabel("序列号:"), 0, 0)
-        glayout.addWidget(QtWidgets.QLabel(self.result.get("serial")), 0, 1)
+        glayout.addWidget(QtWidgets.QLabel("其他基本信息"), 0, 0)
+        # glayout.addWidget(QtWidgets.QLineEdit(self.result.get("serial")), 0, 1)
         glayout.addWidget(QtWidgets.QLabel("系统版本:"), 1, 0)
-        glayout.addWidget(QtWidgets.QLabel("6.0.1"), 1, 1)
+        glayout.addWidget(QtWidgets.QLineEdit("6.0.1"), 1, 1)
 
         glayout.addWidget(QtWidgets.QLabel("品牌型号:"))
-        glayout.addWidget(QtWidgets.QLabel("meizu_Mx5"))
+        glayout.addWidget(QtWidgets.QLineEdit("meizu_Mx5"))
 
 
         hwg = QtWidgets.QWidget()  # 准备四个部件

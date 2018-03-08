@@ -6,7 +6,7 @@ class MyWindow(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle('PyQt5布局示例')
-        self.resize(400, 300)
+        self.resize(500, 300)
 
         # 全局布局（注意参数 self）
         wl = QVBoxLayout(self)

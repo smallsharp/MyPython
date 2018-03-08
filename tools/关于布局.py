@@ -2,7 +2,7 @@ from PyQt5 import QtWidgets
 
 
 """
-refer:http://www.cnblogs.com/hhh5460/p/5173645.html
+http://www.cnblogs.com/hhh5460/p/5173645.html
 本文的四个知识点：
 1. 布局不能直接嵌套
 2. 内层的布局必须先“附着”在一个空 QWidget 上
