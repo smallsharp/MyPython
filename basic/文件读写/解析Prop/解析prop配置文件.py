@@ -7,6 +7,6 @@ from configparser import ConfigParser
 
 
 config = ConfigParser()
-config.read('ids.prop', encoding='utf-8')
+config.read('interface.prop', encoding='utf-8')
 print(config.get('login', 'user'))
 print(config.get('logout', 'logoutId'))

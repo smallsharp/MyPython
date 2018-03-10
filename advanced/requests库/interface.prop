@@ -1,0 +1,7 @@
+[server]
+host_ios = https://app.cmall.com/
+host_h5 = https://m.cmall.com/
+host_ad = https://android.cmall.com/
+
+[orderPaySite]
+offlineRecharge = orderPaySite/merchant/pay/offlineRecharge
