@@ -15,6 +15,8 @@ class AndroidTool(QWidget):
     def initUI(self):
         self.setWindowTitle('Android小工具')
 
+        self.create_form()
+
         # 开始：
         wlayout = QtWidgets.QVBoxLayout()  # 全局布局（1个）：垂直布局
 
@@ -58,7 +60,13 @@ class AndroidTool(QWidget):
 
         self.setLayout(wlayout)  # 窗体本尊设置全局布局
 
+
         self.show()
+
+    def create_form(self):
+        self.formGroupBox = QtWidgets.QGroupBox("Form layout")
+        layout = QtWidgets.QFormLayout()
+        layout.addRow(QtWidgets.QPushButton("PackageName"),QtWidgets.QLineEdit())
 
 
     def __get_values__(self):
