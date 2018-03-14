@@ -1,9 +1,9 @@
 import requests
 import sys
 import io
+import json
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='gb18030')
-
 session = None
 
 def get_session():
@@ -24,34 +24,32 @@ def get_session():
 """
 第一种：post 提交form表单数据
 """
-def login():
+def login_with_data():
     login_url = "https://app.cmall.com/memberSite/sso/loginJson"
     login_params = {"loginAccount": "18855550001", "password": "111111", "clientType": "ios", "abbr": "CN"}
     res = requests.post(url=login_url, data=login_params)
-    # print(res.text)
     return res
 
 """
 第二种：post 提交json格式数据
 """
 
-def  xxxx():
-    import json
-    jsondata = {"name":"xxx","xx":"xxx"}
-    res = requests.post(url="xxx",json=json.loads(jsondata))
-    print(res)
+def login_with_json():
+    login_url = "https://app.cmall.com/memberSite/sso/loginJson"
+    login_params = {"loginAccount": "18855550001", "password": "111111", "clientType": "ios", "abbr": "CN"}
+    res = requests.post(url=login_url, data=login_params)
+    return res
 
 
 def cartlist():
     url = "https://app.cmall.com/orderPaySite/tude/cart/cartList"
     params = {"abbr": "CN", "pageNo": "1", "clientType": "H5", "pageSize": 30}
 
-
     # 通过带 session的cookies 请求
     # res = requests.post(url=url, data=params, cookies=session.cookies)
 
     # 通过带cookies 请求
-    res = requests.post(url=url, data=params, cookies=login().cookies)
+    res = requests.post(url=url, data=params, cookies=login_with_data().cookies)
     print(res.text)
     print(res.cookies)
 
@@ -62,6 +60,4 @@ def main():
 
 
 if __name__ == '__main__':
-    # main()
-    # login()
-    cartlist()
+    login_with_json()
