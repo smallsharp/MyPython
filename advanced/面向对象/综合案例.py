@@ -28,6 +28,46 @@
 
 # ------------------------------------------------------代码2----------------------------------------------------------------------------
 
+# class Caculator:
+#
+#     def __check_num(func):
+#         def inner(self,num):
+#             if not isinstance(num, int):
+#                 raise TypeError("输入的数据不是整形数据")
+#             return func(self, num)
+#         return inner
+#
+#     def __init__(self, num):
+#         self.__result = num
+#
+#     @__check_num
+#     def jia(self, n):
+#         self.__result += n
+#
+#     @__check_num
+#     def jian(self, n):
+#         self.__result -= n
+#
+#     @__check_num
+#     def cheng(self, n):
+#         self.__result *= n
+#
+#     @__check_num
+#     def chu(self, n):
+#         self.__result /= n
+#
+#     def show(self):
+#         print("result:", self.__result)
+#
+#
+# c1 = Caculator(0)
+# c1.jia("2")
+# # c1.cheng(2)
+# # c1.jian(3)
+# c1.show()
+# ------------------------------------------------------代码3----------------------------------------------------------------------------
+
+
 class Caculator:
 
     def __check_num(func):
@@ -43,25 +83,33 @@ class Caculator:
     @__check_num
     def jia(self, n):
         self.__result += n
+        return self
 
     @__check_num
     def jian(self, n):
         self.__result -= n
+        return self
 
     @__check_num
     def cheng(self, n):
         self.__result *= n
+        return self
 
     @__check_num
     def chu(self, n):
         self.__result /= n
+        return self
 
     def show(self):
         print("result:", self.__result)
+        return self
+
+    @property
+    def result(self):
+        return self.__result
 
 
 c1 = Caculator(0)
-c1.jia("2")
-# c1.cheng(2)
-# c1.jian(3)
-c1.show()
+c1.jia(5).cheng(2).jian(3).show()
+# print(c1.result())
+print(c1.result)

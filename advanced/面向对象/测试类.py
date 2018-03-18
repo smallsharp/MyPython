@@ -7,7 +7,6 @@ isinstance(x,xx)
 issubclass(x,xx) # 判断继承关系
 """
 
-
 class Animal(object):
 
     def __init__(self, name, id):
