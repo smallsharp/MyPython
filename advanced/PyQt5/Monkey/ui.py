@@ -5,7 +5,7 @@
 """
 import sys
 from PyQt5.QtWidgets import *
-from PyQt5.QtGui import QIcon,QValidator
+from PyQt5.QtGui import QIcon,QIntValidator
 
 
 class Monkey(QWidget):
@@ -45,28 +45,19 @@ class Monkey(QWidget):
         # self.basicGroupBox = QGroupBox("基础参数")
         formlayout = QFormLayout()
         formlayout.setSpacing(8)
-        lb_devices = QLabel("选择设备")
         cb_devices = QComboBox()
         cb_devices.addItems(["xiaomi", "meizu", "huawei"])
-
-        lb_pkg = QLabel("应用包名")
         tx_pkg = QComboBox()
         tx_pkg.addItems(["com.tude.android", "com.jd.mall"])
-
-        lb_times = QLabel("执行次数")
         tx_times = QLineEdit()
-
-        lb_interval = QLabel("事件间隔")
         tx_interval = QLineEdit()
-
-        lb_seed = QLabel("种子数")
         tx_seed = QLineEdit()
 
-        formlayout.addRow(lb_devices, cb_devices)
-        formlayout.addRow(lb_pkg, tx_pkg)
-        formlayout.addRow(lb_times, tx_times)
-        formlayout.addRow(lb_interval, tx_interval)
-        formlayout.addRow(lb_seed, tx_seed)
+        formlayout.addRow("选择设备", cb_devices)
+        formlayout.addRow("应用包名", tx_pkg)
+        formlayout.addRow("执行次数", tx_times)
+        formlayout.addRow("事件间隔", tx_interval)
+        formlayout.addRow("种子数", tx_seed)
 
         self.basicGroupBox.setLayout(formlayout)
 
@@ -79,10 +70,13 @@ class Monkey(QWidget):
         # 批量初始化元素
         self.event_group = []
         for (event, p) in zip(events, self.percent):
-            text = QLineEdit(str(p))
-            formlayout.addRow(QLabel(event), text)
-            print(text.text())
-            self.event_group.append(int(text.text()))
+            tx = QLineEdit(str(p))
+            pInt = QIntValidator(self) # 设置只允许输入数字
+            pInt.setRange(0,100)
+            tx.setValidator(pInt)
+            formlayout.addRow(QLabel(event), tx)
+            self.event_group.append(int(tx.text()))
+
         self.eventGroupBox.setLayout(formlayout)
 
     def init_btn_view(self):
@@ -100,12 +94,10 @@ class Monkey(QWidget):
         self.debugGroupBox = QGroupBox("调试选项")
         vlayout = QVBoxLayout()
         vlayout.setSpacing(8)
-        vlayout.addWidget(QCheckBox("默认启动页面"))
-        vlayout.addWidget(QCheckBox("忽略程序崩溃"))
-        vlayout.addWidget(QCheckBox("忽略程序无响应"))
-        vlayout.addWidget(QCheckBox("忽略证书"))
-        vlayout.addWidget(QCheckBox("忽略超时"))
-        vlayout.addWidget(QCheckBox("出错直接杀掉进程"))
+        cb_tx = ["默认启动页面","忽略程序崩溃","忽略程序无响应","忽略证书","忽略超时","出错直接杀掉进程"]
+        for tx in cb_tx:
+            vlayout.addWidget(QCheckBox(tx))
+
         vlayout.addStretch(1)
         self.debugGroupBox.setLayout(vlayout)
 
