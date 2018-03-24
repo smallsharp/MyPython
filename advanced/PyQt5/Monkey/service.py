@@ -1,7 +1,30 @@
+import os
+adb = os.path.join(os.environ["ANDROID_HOME"], "platform-tools", "adb.exe ")
+
+
+def devices():
+    """
+    获取已连接的设备列表
+    :return:
+    """
+    print("devices")
+    cmd = adb + "devices"
+    res = os.popen(cmd).readlines()
+    # print(res)
+    return [i.split()[0] for i in res if 'devices' not in i and len(i) > 5]
+
+def packages():
+    """
+    获取设备中已安装的第三方包
+    :return:
+    """
+    cmd = adb + "shell pm list packages -3"
+    res = os.popen(cmd).readlines()
+    return res
+
 class MonkeyServer:
 
-    def __init__(self, param):
-        self.param = param
+    def __init__(self):
         pass
 
     def run(self):
