@@ -758,4 +758,4 @@ if __name__ == '__main__':
 
     device = AdbTools()
 
-    print(device.get_screen_normal_size())
+    print(device.get_screen_reality_size())

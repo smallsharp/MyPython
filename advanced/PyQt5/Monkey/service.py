@@ -41,7 +41,8 @@ if __name__ == '__main__':
     # m = MonkeyServer(param)
     # m.run()
 
-    event = ["触摸事件", "滑动事件", "轨迹球事件", "导航事件", "主导航事件", "系统按键事件", "页面切换事件"]
-
-    for i, ev in enumerate(event):
-        print(i, ev)
+    # event = ["触摸事件", "滑动事件", "轨迹球事件", "导航事件", "主导航事件", "系统按键事件", "页面切换事件"]
+    #
+    # for i, ev in enumerate(event):
+    #     print(i, ev)
+    print(devices())

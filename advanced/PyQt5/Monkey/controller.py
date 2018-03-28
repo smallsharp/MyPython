@@ -18,7 +18,7 @@ class MonkeyController(MonkeyUi):
         # 连接设备
         self.refresh_device()
         # 获取所有参数
-        self.init_params()
+        self.init_event_params()
         self.init_debug_params()
         # 开始
         self.btn_start.clicked.connect(self.run)
@@ -26,7 +26,16 @@ class MonkeyController(MonkeyUi):
         self.btn_stop.clicked.connect(self.stop)
 
     def refresh_device(self):
-        self.btn_refresh.clicked.connect(self.set_device)
+        """
+        刷新设备，耗时操作
+        :return:
+        """
+        self.btn_refresh.clicked.connect(self.dowork) # 刷新按钮被点击时，执行
+
+    def init_event_params(self):
+        print("init_evnet_params")
+        for index,tx in enumerate(self.tx_events):
+            print(index,tx.text())
 
     def run(self):
         cmd = "adb -s {0} shell monkey -p {1}".format(self.device, self.tx_pkg)
@@ -34,7 +43,6 @@ class MonkeyController(MonkeyUi):
     def init_debug_params(self):
         for ckb in self.ckb_debugs:
             ckb.stateChanged.connect(self.test)
-
 
     def test(self):
         """
@@ -48,31 +56,36 @@ class MonkeyController(MonkeyUi):
     def stop(self):
         pass
 
-    def set_device(self):
+
+    def dowork(self):
+        self.thread = Thread()
+        # 信号绑定到槽函数
+        self.thread.update_text_singal.connect(self.set_device)
+        self.thread.start()
+
+    def set_device(self,text):
         """
         将获取到的设备，填充到下拉框中
         :return:
         """
-        print("click")
-        self.comb_devices.clear()
-        # self.cb_devices.addItem(service.devices)
-        self.comb_devices.addItem("meizu")
-        print("currentText:", self.comb_devices.currentText())
+        self.comb_devices.addItem(text)
 
-    def init_params(self):
-        for tx in self.tx_events:
-            tx.textChanged.connect(self.sum)
 
-    def sum(self):
-        tx_list = []
-        for tx in self.tx_events:
-            tx_list.append(int(tx.text()))
-        if sum(tx_list) > 100:
-            tx_list = []
-        else:
-            print(tx_list)
-            return tx_list
 
+from PyQt5.QtCore import *
+
+class Thread(QThread):
+
+    def __init__(self):
+        super(Thread,self).__init__()
+
+    update_text_singal = pyqtSignal(str)
+
+    def run(self):
+        print("run")
+        devices = service.devices()
+        # 通过信号将 数据发送出去
+        self.update_text_singal.emit(devices[0])
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

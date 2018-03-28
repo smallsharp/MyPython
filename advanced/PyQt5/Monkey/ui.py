@@ -72,6 +72,7 @@ class MonkeyUi(QWidget):
             tx_event.setValidator(pInt)
             formlayout.addRow(QLabel(event), tx_event)
             self.tx_events.append(tx_event)
+            # tx_event.text()
 
 
         self.eventGroupBox.setLayout(formlayout)
