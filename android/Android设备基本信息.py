@@ -1,9 +1,5 @@
 #coding=utf-8
-
-
 import os
-
-
 
 """
 ro.build.version.sdk=22

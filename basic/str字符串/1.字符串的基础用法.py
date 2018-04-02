@@ -1,9 +1,9 @@
 # coding=utf-8
 
 a = 'Life is short, you need Python'
+
 a.lower()  # 'life is short, you need Python'
 a.upper()  # 'LIFE IS SHORT, YOU NEED PYTHON'
-
 a.count('i')  # 出现的次数,2
 
 """

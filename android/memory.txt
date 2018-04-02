@@ -1,0 +1,74 @@
+Applications Memory Usage (kB):
+
+Uptime: 928859622 Realtime: 1896439987
+
+
+
+** MEMINFO in pid 17101 [com.tude.android] **
+
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+
+                ------   ------   ------   ------   ------   ------   ------
+
+  Native Heap        0        0        0        0    16384     7848     8535
+
+  Dalvik Heap    14240    13588        0        0    33124    29119     4005
+
+ Dalvik Other      553      552        0        0                           
+
+        Stack      277      276        0        0                           
+
+       Ashmem        2        0        0        0                           
+
+    Other dev        5        0        4        0                           
+
+     .so mmap     1807      244       96        0                           
+
+    .apk mmap      472        0      112        0                           
+
+    .dex mmap     6688        0     6684        0                           
+
+    .oat mmap     2328        0      652        0                           
+
+    .art mmap     2999      820     1256        0                           
+
+   Other mmap       34        4       20        0                           
+
+      Unknown     4450     4320        0        0                           
+
+        TOTAL    33855    19804     8824        0    49508    36967    12540
+
+ 
+
+ Objects
+
+               Views:       16         ViewRootImpl:        1
+
+         AppContexts:        3           Activities:        1
+
+              Assets:        4        AssetManagers:        4
+
+       Local Binders:        9        Proxy Binders:       18
+
+       Parcel memory:        2         Parcel count:       11
+
+    Death Recipients:        1      OpenSSL Sockets:        0
+
+ 
+
+ Dalvik
+
+         isLargeHeap:    false
+
+ 
+
+ SQL
+
+         MEMORY_USED:        0
+
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+
+ 
+
