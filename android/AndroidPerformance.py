@@ -1,16 +1,25 @@
 import os
 
 
-def findADB():
+def adbPath():
     if os.environ["ANDROID_HOME"]:
         return os.path.join(os.environ["ANDROID_HOME"], "platform-tools", "adb.exe")
     raise RuntimeError("当前没有配置Android开发环境！")
 
 
+def get_devices():
+    """
+    获取所有的连接设备
+    :return:
+    """
+    res = os.popen(adbPath() + " devices").readlines()
+    return [i.split()[0] for i in res if 'devices' not in i and len(i) > 5]
+
+
 class AndroidPerformance:
 
     def __init__(self, device, packageName):
-        self.adb = findADB()
+        self.adb = adbPath()
         self.device = device
         self.packageName = packageName
 
@@ -38,18 +47,20 @@ class AndroidPerformance:
         res = os.popen("adb -s {} shell top -n 1 -s cpu|grep {}".format(self.device, self.packageName))
         if res.startswith("No process"):
             raise Exception("没有检测到{}的进程".format(self.packageName))
-        return res[res.find("%") - 3 : res.find("%")]
+        return res[res.find("%") - 3: res.find("%")]
 
     def uid(self):
-        res = os.popen("adb -s {} shell dumpsys package {} | grep userId".format(self.device,self.packageName))
+        res = os.popen("adb -s {} shell dumpsys package {} | grep userId".format(self.device, self.packageName))
         return res.split("=")[1]
 
 
-p = AndroidPerformance("xxx","com.tude.android")
+# p = AndroidPerformance("xxx", "com.tude.android")
+#
+# import time
+#
+# for i in range(1000):
+#     # print("pss:",p.pss)
+#     print("heap:", p.heap)
+#     time.sleep(0.5)
 
-import time
-
-for i in range(1000):
-    # print("pss:",p.pss)
-    print("heap:", p.heap)
-    time.sleep(0.5)
+print(get_devices())
