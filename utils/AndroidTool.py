@@ -25,9 +25,9 @@ class ADBTools:
         self.adbPath = adbPath()
         self.device = None
         if not device:
-            devices = self.get_devices() # 查找当前已连接的设备
-            if devices :
-                self.device = devices[0] # 如果有，取第一个做为默认设备
+            devices = self.get_devices()  # 查找当前已连接的设备
+            if devices:
+                self.device = devices[0]  # 如果有，取第一个做为默认设备
             else:
                 raise Exception("没有发现可用设备，请检查设备连接！")
         else:
@@ -49,7 +49,7 @@ class ADBTools:
         :return:
         """
         cmd = "{} -s {} shell {}".format(self.adbPath, self.device, str(args))
-        # print(cmd)
+        print(cmd)
         return os.popen(cmd)
 
     def get_devices(self):
@@ -65,7 +65,7 @@ class ADBTools:
         获取当前运行的应用信息
         :return:
         """
-        return self.shell('dumpsys window w | {} \/ | {} name='.format("findstr","findstr")).read()
+        return self.shell('dumpsys window w | {} \/ | {} name='.format("findstr", "findstr")).read()
 
     def get_current_package(self):
         """
@@ -89,7 +89,6 @@ class ADBTools:
         :return:
         """
         return self.shell('getprop ro.build.version.sdk').read().strip()
-
 
     def get_screen_normal_size(self):
         """
@@ -129,12 +128,20 @@ class ADBTools:
         """
         self.shell('am start -a android.intent.action.VIEW -d %s' % url)
 
-    def start_application(self, component):
+    def start_app(self, component):
         """
         启动一个应用
         e.g: com.android.settings/com.android.settings.Settings
         """
         self.shell("am start -n %s" % component)
+
+    def input(self,text):
+        """
+        发送一个输入事件
+        :param text:
+        :return:
+        """
+        self.shell('input text {}'.format(text))
 
     def send_keyevent(self, keycode):
         """
@@ -144,7 +151,24 @@ class ADBTools:
         """
         self.shell('input keyevent %s' % keycode)
 
+    def click(self, x, y):
+        """
+        发送一个点击事件
+        :return:
+        """
+        self.shell('input tap {} {}'.format(x, y))
 
+    def swipe(self, fromx, fromy, tox, toy, time=500):
+        """
+        发送一个滑动 或  按压事件
+        :param fromx: 起点的x坐标
+        :param fromy: 起点的y坐标
+        :param tox: 终点的x坐标
+        :param toy: 重点的y坐标
+        :param time:默认为500毫秒
+        :return:None
+        """
+        self.shell('input swipe {} {} {} {} {}'.format(fromx, fromy, tox, toy, time))
 
     def clear_cache(self, package):
         """
@@ -165,8 +189,17 @@ if __name__ == '__main__':
     # print(tool.get_screen_reality_size())
 
     # tool.call(18516213133)
-    tool.open_url("http://www.baidu.com")
 
+    import time
 
+    # tool.start_app("com.android.settings/com.android.settings.Settings")
+    # time.sleep(0.5)
+    # tool.open_url("http://www.baidu.com")
 
+    # tool.start_app("com.tude.android/com.tude.android.MainActivity")
+    # time.sleep(0.5)
+    # tool.start_app("com.tude.android/com.tude.android.gallery.GalleryActivity")
 
+    tool.swipe(900,500,100,500)
+    time.sleep(1)
+    tool.swipe(100,500,900,500)

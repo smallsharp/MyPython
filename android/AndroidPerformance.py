@@ -44,7 +44,8 @@ class AndroidPerformance:
 
     @property
     def cpu(self):
-        res = os.popen("adb -s {} shell top -n 1 -s cpu|grep {}".format(self.device, self.packageName))
+        res = os.popen("adb -s {} shell top -n 1 -s cpu|findstr {}".format(self.device, self.packageName)).read()
+        # print("cpu:",res) # 14637  1   0% S    68 2893816K 103580K  fg u0_a582  com.tude.android
         if res.startswith("No process"):
             raise Exception("没有检测到{}的进程".format(self.packageName))
         return res[res.find("%") - 3: res.find("%")]
@@ -54,13 +55,10 @@ class AndroidPerformance:
         return res.split("=")[1]
 
 
-# p = AndroidPerformance("xxx", "com.tude.android")
-#
-# import time
-#
-# for i in range(1000):
-#     # print("pss:",p.pss)
-#     print("heap:", p.heap)
-#     time.sleep(0.5)
+p = AndroidPerformance("85GBBMA2353T", "com.tude.android")
 
-print(get_devices())
+import time
+
+for i in range(1000):
+    print("pss:{}; heap:{}; cpu:{}".format(p.pss, p.heap, p.cpu))
+    time.sleep(0.1)
