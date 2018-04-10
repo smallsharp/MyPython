@@ -5,35 +5,57 @@ import io
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='gb18030')
 
-session = None
+mtaidu = "https://m.taidu.com"
 
-def get_session():
+
+def initSession():
     """
     通过登录 获取session
-    :return:
+    :return: session
     """
-    global session
-    login_url = "https://m.taidu.com/memberSite/sso/loginJson"
-    login_params = {"loginAccount": "18521035133", "password": "111111", "clientType": "Android", "abbr": "CN"}
+    url = "{}/memberSite/sso/loginJson?loginAccount=18521035133&password=111111&code=&rememberMe=1&clientType=H5&abbr=CN&clientVersion=".format(
+        mtaidu)
     session = requests.Session()
-    requests.adapters.DEFAULT_RETRIES = 5
-    session.get(url=login_url, params=login_params)
+    # session.close()
+    # requests.adapters.DEFAULT_RETRIES = 5
+    session.get(url)
     return session
 
 
-def all_user_diy():
-    diy_url = "https://m.taidu.com/goodsSite/userDiy/queryAllUserDiy"
-    params = {"abbr": "CN", "clientType": "h5", "pageNo": 1, "pageSize": 20}
-    # res = requests.get(url=diy_url, params=params, cookies=session.cookies)
-    res = session.get(url=diy_url, params=params)
-    return res.json()
+def productList():
+    url = "{}/goodsSite/home/categoryProductList?abbr=CN&clientType=H5&clientVersion=".format(mtaidu)
+    res = requests.get(url)
+    res = res.json()
+    if res['code'] == '200' and len(res['result']) > 0:
+        categoryList = []
+        category = {}
+        for r in res['result']:
+            category['categoryName'] = r['categoryName']
+            category['categroyCode'] = r['categroyCode']
+            category['imagePath'] = r['imagePath']
+            categoryList.append(category)
+    else:
+        print("Error", url)
+    return categoryList
 
+
+def goodsList(category):
+    url = "{}/goodsSite/home/categoryGoodsList?abbr=CN&categoryCode={}&clientType=H5&clientVersion=".format(mtaidu,category['categroyCode'])
+    res = requests.get(url)
+    res = res.json()
+    if res['code'] == '200' and len(res['result']) > 0:
+        goodsInfo = []
+        goodsInfoList = []
+        for r in res['result']:
+            # print(r)
+            goodsInfo.append()
 
 
 
 def main():
-    get_session()
-    print(all_user_diy())
+    # initSession()
+    for product in productList():
+        goodsList(product)
 
 
 if __name__ == '__main__':

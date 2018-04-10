@@ -1,10 +1,10 @@
 import requests
 import sys
 import io
-import json
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='gb18030')
 session = None
+
 
 def get_session():
     """
@@ -21,23 +21,20 @@ def get_session():
     cookies = session.cookies
     return session
 
-"""
-第一种：post 提交form表单数据
-"""
+
+# 第一种：post 提交form表单数据
 def login_with_data():
     login_url = "https://app.cmall.com/memberSite/sso/loginJson"
     login_params = {"loginAccount": "18855550001", "password": "111111", "clientType": "ios", "abbr": "CN"}
     res = requests.post(url=login_url, data=login_params)
     return res
 
-"""
-第二种：post 提交json格式数据
-"""
 
+# 第二种：post 提交json格式数据
 def login_with_json():
     login_url = "https://app.cmall.com/memberSite/sso/loginJson"
     login_params = {"loginAccount": "18855550001", "password": "111111", "clientType": "ios", "abbr": "CN"}
-    res = requests.post(url=login_url, data=login_params)
+    res = requests.post(login_url,json=login_params)
     return res
 
 
@@ -60,4 +57,5 @@ def main():
 
 
 if __name__ == '__main__':
-    login_with_json()
+    print(login_with_json())
+    print(login_with_data())
