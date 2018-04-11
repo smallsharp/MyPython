@@ -6,13 +6,10 @@ import codecs
 
 def getYam(path):
     print("getYam:",path)
-    try:
-        with open(path, encoding='utf-8') as f:
-            file_content = yaml.load(f)
-            print("file_content:",file_content)
-            return file_content
-    except FileNotFoundError:
-        print(u"找不到文件")
+    with open(path, encoding='utf-8') as f:
+        file_content = yaml.load(f)
+        print("file_content:", file_content)
+        return file_content
 
 if __name__ == "__main__":
 
