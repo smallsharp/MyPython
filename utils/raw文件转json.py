@@ -35,9 +35,14 @@ def add2Cart():
 
 if __name__ == '__main__':
 
-    for i in range(100):
-        try:
-            add2Cart()
-            print("添加第%d条成功" % i)
-        except Exception:
-            print("第%d条,添加失败" % i)
+    # for i in range(100):
+    #     try:
+    #         add2Cart()
+    #         print("添加第%d条成功" % i)
+    #     except Exception:
+    #         print("第%d条,添加失败" % i)
+
+    str2 = 'name=%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90&phone=13355556666&zipCode=223333&shippingAddress=%E5%9C%B0%E5%9D%80%E8%BF%98%E5%A5%BD%E8%BF%98%E5%A5%BD%E5%93%88&isDefault=0&clientType=H5&abbr=CN&version=2.0.0&clientId=cd467887-40a1-4ff4-84e9-f2729999a1b5&clientSecret=e983822c-bb98-4d82-aa5e-b209104f811a&userId=wuta-1&sign=8055F7C31F5A8CBA98134646FFC3BF19'
+
+    d = str2dict(str2)
+    print(d)
