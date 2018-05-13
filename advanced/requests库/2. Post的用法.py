@@ -13,7 +13,7 @@ def get_session():
     """
     global session
     login_url = "https://m.taidu.com/memberSite/sso/loginJson"
-    login_params = {"loginAccount": "18521035133", "password": "111111", "clientType": "Android", "abbr": "CN"}
+    login_params = {'loginAccount': '18521035133', 'password': '111111', 'code': '', 'rememberMe': '1', 'clientType': 'H5', 'abbr': 'CN', 'clientVersion': '', 'sign': '87823FC7334C13955C8B451B48027954'}
     session = requests.Session()
     # session.keep_alive=False
     requests.adapters.DEFAULT_RETRIES = 5
@@ -40,22 +40,26 @@ def login_with_json():
 
 def cartlist():
     url = "https://app.cmall.com/orderPaySite/tude/cart/cartList"
-    params = {"abbr": "CN", "pageNo": "1", "clientType": "H5", "pageSize": 30}
+    params = {'pageSize': '100', 'currPage': '1', 'status': '0%2C21%2C22', 'clientType': 'H5', 'abbr': 'CN', 'clientVersion': '', 'sign': '2E269FE54CF9E1C08396EA94F056DEE9'}
 
     # 通过带 session的cookies 请求
-    # res = requests.post(url=url, data=params, cookies=session.cookies)
+
+    for k,v in get_session().cookies.items():
+        print(k,v)
+    res = requests.post(url=url, data=params, cookies=get_session().cookies)
 
     # 通过带cookies 请求
-    res = requests.post(url=url, data=params, cookies=login_with_data().cookies)
+    # res = requests.post(url=url, data=params, cookies=login_with_data().cookies)
     print(res.text)
     print(res.cookies)
 
 
 def main():
-    get_session()
+    # get_session()
     cartlist()
 
 
 if __name__ == '__main__':
-    print(login_with_json())
-    print(login_with_data())
+    # print(login_with_json())
+    # print(login_with_data())
+    main()
