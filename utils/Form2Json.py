@@ -42,7 +42,7 @@ if __name__ == '__main__':
     #     except Exception:
     #         print("第%d条,添加失败" % i)
 
-    str2 = 'orderNo=115262887863010193&totalAmount=13900&tradeType=XCX&body=Tee 32织+弹性,&openid=oJTEi0Ye1zn_ZypQ_C1s6ymCbbCg&token=4352bc64b17235c33a1fe007a3e&clientId=365b05fd-fc45-44c3-957f-817c00c716bb&clientSecret=0d7187d0-d3f0-4204-901b-30ff2fdf3c3c&abbr=CN&clientType=mp&userId=txhy_dz&version=2.0.0&sign=3449c9e5e332f1dbb81505cd739fbf3f'
+    str2 = 'orderNo=115258676092310121&totalAmount=1&tradeType=XCX&body=%E8%93%9D%E7%89%99%E8%BF%B7%E4%BD%A0%E9%9F%B3%E5%93%8D%2C&openid=oJTEi0Ye1zn_ZypQ_C1s6ymCbbCg&token=b87885f4fee840045a29fac3723&clientId=365b05fd-fc45-44c3-957f-817c00c716bb&clientSecret=0d7187d0-d3f0-4204-901b-30ff2fdf3c3c&abbr=CN&clientType=mp&userId=txhy_dz&version=2.0.0&sign=3449c9e5e332f1dbb81505cd739fbf3f'
 
     d = str2dict(str2)
     print(d)
