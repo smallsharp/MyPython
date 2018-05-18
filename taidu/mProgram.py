@@ -27,26 +27,26 @@ def wxGetSign():
 def add2Cart():
     url = 'https://m.taidu.com/goodsSite/userDiy/saveDiyGoodsAndAddShopCart'
     params = {
-	"skuniCode": "88231_88231102_10201",
-	"productId": 88231,
-	"goodsId": 7073,
+	"skuniCode": "10081_10081104_10103",
+	"productId": 10081,
+	"goodsId": "7429",
 	"goodsType": 2,
 	"clientVersion": "3.0.3",
 	"userId": "",
 	"buyGoodsInfoVos": [{
 		"number": 1,
-		"productDetailCode": 88231102,
-		"salePrice": 9,
-		"skuGroup": "LEVEL,10201#SIZE,A4 进口金属纸"
+		"productDetailCode": 10081104,
+		"salePrice": 170,
+		"skuGroup": "LEVEL,10103#OPTION,10003#SIZE,S"
 	}],
 	"mchCode": "#36227",
 	"words": "[]",
-	"imgUri": "[{\"matrix\":\"matrix(1 0 0 1 100 225)\",\"height\":800,\"maskX\":100,\"maskY\":225,\"width\":800,\"isSuit\":\"N\",\"id\":\"\",\"imgFlag\":1,\"url\":\"pre/model/2D/goodsSvgTemplate/20180427070424/7073/1/5832AE03.png\"}]",
-	"opusUri": "https://imgex.cmall.com/imgsrv/nospc/html5/Brrm85cEWF2018_5_11_21.png",
+	"imgUri": "[{\"matrix\":\"matrix(0.18795993797196078 0 0 0.18795993797196078 425.0200310140196 431.0200310140196)\",\"height\":1000,\"maskX\":425.0200310140196,\"maskY\":431.0200310140196,\"width\":1000,\"isSuit\":\"N\",\"id\":\"\",\"imgFlag\":2,\"url\":\"diyrelease/cmall/o_1cdeirvvv1occo771a3q118ui59v.png\"}]",
+	"opusUri": "https://imgex.cmall.com/imgsrv/nospc/html5/3tQn5Bc2ka2018_5_16_16.png",
 	"abbr": "CN",
 	"clientType": "H5"
 }
-    headers = {'token': '9636147322f55ee0b775e352fe0'}
+    headers = {'token': '762aef2031e44bf29191bbb99b0'}
 
     # 参数本身是json
     res = requests.post(url, json=params, headers=headers)
@@ -59,7 +59,7 @@ def add2Cart():
 if __name__ == '__main__':
     # print(wxGetSign())
 
-    for i in range(50):
+    for i in range(100):
         print(i)
         print(add2Cart())
     # for i in range(0, 20):

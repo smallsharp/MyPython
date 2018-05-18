@@ -40,7 +40,9 @@ def productList():
 
 
 def goodsList(category):
-    url = "{}/goodsSite/home/categoryGoodsList?abbr=CN&categoryCode={}&clientType=H5&clientVersion=".format(mtaidu,category['categroyCode'])
+    url = "{}/goodsSite/home/categoryGoodsList?abbr=CN&categoryCode={}&clientType=H5&clientVersion=".format(mtaidu,
+                                                                                                            category[
+                                                                                                                'categroyCode'])
     res = requests.get(url)
     res = res.json()
     if res['code'] == '200' and len(res['result']) > 0:
@@ -51,11 +53,25 @@ def goodsList(category):
             goodsInfo.append()
 
 
+def cartList():
+    url = 'https://m.taidu.com/orderPaySite/tude/cart/cartList'
+    params = {'abbr': 'CN', 'pageNo': '1', 'clientType': 'H5', 'pageSize': '200', 'clientVersion': '',
+              'sign': 'FF1AEE6E87BF3B9132FE9621A1E1A941'}
+
+    headers = {'toKen': 'b9fd40536a509ee6507c8c791ae'}
+
+    for k, v in initSession().cookies.items():
+        print(k, v)
+        # headers[k] = v
+
+    print(headers)
+
+    res = requests.post(url, params, headers=headers)
+    print(res.text)
+
 
 def main():
-    # initSession()
-    for product in productList():
-        goodsList(product)
+    cartList()
 
 
 if __name__ == '__main__':
