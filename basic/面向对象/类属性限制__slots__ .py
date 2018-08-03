@@ -13,5 +13,4 @@ p1 = Person()
 
 p1.name = "xiaoming"
 p1.age = 20
-
 p1.sex = "man" # 'Person' object has no attribute 'sex'

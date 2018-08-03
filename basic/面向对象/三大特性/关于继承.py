@@ -2,8 +2,6 @@
 
 class A: # 类A继承自object类，这样才能使用super函数，因为这是python的“新式类”支持的特性
     def __init__(self):
-
-
         self.namea = "aaa"
 
     def funca(self):
