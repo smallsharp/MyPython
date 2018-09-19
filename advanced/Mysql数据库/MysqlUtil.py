@@ -2,8 +2,8 @@ import pymysql as ps
 from pymysql import cursors
 
 
-class MysqlHelper:
-    
+class MysqlUtil:
+
     def __init__(self, host, user, password, database, charset):
         self.host = host
         self.user = user
@@ -31,7 +31,7 @@ class MysqlHelper:
         except :
             print('cud出现错误')
             self.db.rollback()
-        
+
     # 数据查询,获取结果集
     def runQuery(self, sql, params):
         try:
@@ -42,3 +42,17 @@ class MysqlHelper:
             return result
         except:
             print('query error')
+
+
+if __name__ == '__main__':
+    db1 = MysqlUtil(host='127.0.0.1', user='root', password='root', database='test', charset='utf8')
+
+    sql = "select * from testcase where suiteId=%s and id=%s"
+
+    results = db1.runQuery(sql, (2, 4))
+
+    db1.close()
+
+    for result in results:
+        print(result)
+        # print(result.get('id'))
