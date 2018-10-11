@@ -1,6 +1,5 @@
 #coding=utf-8
 
-
 print("第一种：列表生成式")
 alist = [i for i in "python"]
 print(alist)
@@ -21,9 +20,6 @@ print(dlist)
 
 
 print("第四种：列表自身切片")
-
 s = ["zhangsan","wangwu","lisi"]
 flist = s[1:]
 print(flist)
-
-

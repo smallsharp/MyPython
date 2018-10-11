@@ -1,97 +1,53 @@
 # coding=utf-8
 
-import requests
-import json
-import sys
-import io
-
-sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='gb18030')
-
-GET = "get"
-POST = "post"
-
-
-def req():
-    """
-    请求下级数据
-    :return:
-    """
-    url = "https://innermerch.cmall.com/merchantSupportSite/user_op/getChildUser"
-    # data = """
-    #     {"token":"XDDFEADSSFE"}
-    # """
-    # res = requests.post(url=url, json=json.loads(data))
-
-    data = {"token":"XDDFEADSSFE"}
-    res = requests.post(url,data)
-
-    try:
-        for item in res.json()["result"]:
-            if item.get("userName") == "t3":
-                print("结果通过！")
-            else:
-                print("失败了！")
-    except Exception as e:
-        print("接口返回错误:",e)
-
-
-def show():
-    url = "https://apimerch.cmall.com/restwsapis/goods/getModelShow"
-
-    header = {"Content-Type": "application/json"}
-    data = {
-        "abbr": "CN",
-        "clientType": "web",
-        "goodsId": "4053",
-        "modelClassId": "2451",
-        "clientId": "d83fcd1f-2ad8-41b5-981d-3342548c768e",
-        "productDesignType": "2",
-        "clientSecret": "0927150e-64fd-4191-85c2-b9b5c34d5a17",
-        "skuniCode": "501_501100_0",
-        "source": "1",
-        "sign": "7E84E5BF6C2CFF54735BE3AD5A117706",
-        "clientVersion": ""
-    }
-
-    # res = requests.get(url, data, headers=header)
-    res = requests.get(url, params=data, headers=header)
-    print(res.text)
-
-
-def goods():
-    url = "https://www.taidu.com/goodsSite/home/productGoodsList"
-    header = {"Content-Type": "application/json"}
-    param = {"abbr": "CN", "clientType": "web", "productId": "501", "skuGroup": "", "clientVersion": ""}
-    # res = requests.get(url, param, headers=header)
-    res = requests.get(url, param, headers=header)
-    print(res.text)
-
-
-def cate_goods():
-    url = "https://www.taidu.com/goodsSite/home/categoryGoodsList"
-    param = {"abbr": "CN", "categoryCode": "101", "clientType": "web", "clientVersion": ""}
-    # res = requests.get(url,param)
-    # print(res.text)
-    print(con(url, param).text)
-
-
-def con(url, params, method="get", **kwargs):
-    """
-    请求
-    :param url:
-    :param params:
-    :param method:
-    :param kwargs:
-    :return:
-    """
-    if method.lower().strip() == "get":
-        return requests.get(url, params, **kwargs)
-    elif method.lower().strip() == "post":
-        return requests.post(url, data=params, **kwargs)
-    else:
-        raise KeyError("暂不支持的请求方式！")
-
-
 if __name__ == '__main__':
-    # cate_goods()
-    req()
+    import json
+
+    dic = {"retCode": 0, "retMsg": "", "retData": {"detail": {"id": "3074", "demandId": "3074", "goodsName": "\u8bbe\u5907",
+                                                        "startAddress": "\u4e0a\u6d77\u5e02\u9752\u6d66\u533a\u534e\u5f90\u516c\u8def683\u53f7",
+                                                        "endAddress": "\u4e0a\u6d77\u5e02\u9752\u6d66\u533a\u534e\u5f90\u516c\u8def683\u53f7",
+                                                        "startAddressLon": 121.266042, "startAddressLat": 31.196979,
+                                                        "endAddressLon": "1212660420", "endAddressLat": "311969790",
+                                                        "carryGoodsTime": "1536057000", "carryWeight": 12,
+                                                        "carryVolume": 0, "carryLong": "0", "carryHeight": "0",
+                                                        "carryWidth": "0", "carryNum": "0",
+                                                        "carModel": "4.2\u7c73 \u516c\u8def\u8d27\u8f66",
+                                                        "carType": "0", "isTailPlate": "0", "isCarry": "0",
+                                                        "isCarpool": "0", "payType": "3", "supplyType": "2",
+                                                        "goodsNum": "100", "transportMoney": "200000",
+                                                        "createTime": "1536024801", "title": "\u8bbe\u5907",
+                                                        "desc": "\u5907\u6ce8", "endDate": "1537315200", "status": "1",
+                                                        "updateTime": "1536024801", "uid": "8473", "view": "0",
+                                                        "url": "https:\/\/wxcx.yunchehome.com\/mpw1536024778258.jpg;https:\/\/wxcx.yunchehome.com\/mpw1536024795921.jpg",
+                                                        "type": "1",
+                                                        "addr": "\u4e0a\u6d77\u5e02\u9752\u6d66\u533a\u534e\u5f90\u516c\u8def683\u53f7",
+                                                        "secreport": "0", "top": "0", "topStartTime": "0",
+                                                        "topEndTime": "0", "lon": 121.266042, "lat": 31.196979,
+                                                        "reason": "", "deTime": "2018-09-04", "strCarType": "",
+                                                        "strIsTailPlate": "", "strIsCarry": "", "strIsCarpool": "",
+                                                        "strPayType": "\u56de\u5355\u4ed8",
+                                                        "strSupplyType": "\u957f\u671f\u7a33\u5b9a\u8d27\u6e90",
+                                                        "isEnd": 0, "cardType": "14",
+                                                        "strCardType": "\u7269\u6d41\u79d1\u6280\u4eba", "grand": "0",
+                                                        "pic": "https:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaELUDxs6jR3kicJDloe9icbM9dZTosx8VBcbrOULQRf2GFjBUAQycBe97ibZiciaMwQBBICjYJtIvLkTRIw\/132",
+                                                        "job": "\u9996\u5e2d\u4f53\u9a8c\u5b98",
+                                                        "name": "\u804c\u4e1a\u89c4\u5212", "corpId": "2930",
+                                                        "level": 3,
+                                                        "bpic": "https:\/\/wxcx.yunchehome.com\/h5\/image\/wx\/v3-4b.png",
+                                                        "spic": "https:\/\/wxcx.yunchehome.com\/h5\/image\/wx\/v3-4s.png",
+                                                        "standard": "10000",
+                                                        "usertitle": "\u79e9\u5e8f\u5c0f\u767d\u94f6",
+                                                        "corpName": "\u4e0a\u6d77\u96f7\u51cc\u4fe1\u606f\u79d1\u6280\u6709\u9650\u516c\u53f8",
+                                                        "corpCert": "2", "cardId": "9203", "isLike": 0, "likeNum": 0},
+                                             "userInfo": {"name": "\u804c\u4e1a\u89c4\u5212", "cardId": "9203",
+                                                          "pic": "https:\/\/wx.qlogo.cn\/mmopen\/vi_32\/PiajxSqBRaELUDxs6jR3kicJDloe9icbM9dZTosx8VBcbrOULQRf2GFjBUAQycBe97ibZiciaMwQBBICjYJtIvLkTRIw\/132",
+                                                          "grand": "0", "level": 3,
+                                                          "bpic": "https:\/\/wxcx.yunchehome.com\/h5\/image\/wx\/v3-4b.png",
+                                                          "standard": "10000",
+                                                          "spic": "https:\/\/wxcx.yunchehome.com\/h5\/image\/wx\/v3-4s.png",
+                                                          "title": "\u8bbe\u5907",
+                                                          "corpName": "\u4e0a\u6d77\u96f7\u51cc\u4fe1\u606f\u79d1\u6280\u6709\u9650\u516c\u53f8",
+                                                          "corpCert": "2", "mobile": "18521035133"}, "isEnd": 0}}
+    js = json.dumps(dic, sort_keys=True, indent=4, separators=(',', ':'))
+    print(type(js))
+    # print(js)

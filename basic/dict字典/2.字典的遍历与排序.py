@@ -1,6 +1,6 @@
 # coding=utf-8
 
-adict = {"tom": "22", "jack": "25", "fanny": "28", "amily": "18"}
+adict = {"tom": "22", "jack": "25", "fanny": "28", "amy": "18"}
 
 # 1. 字典的遍历方式1：只对键遍历
 for key in adict:
@@ -19,8 +19,7 @@ for value in adict.values():
     print(value)
 
 
-# 4.按照key的字符顺序遍历，先对dict进行排序sorted(adict)
-# 4.1 先对字典进行排序，然后遍历
+# 4.1 先对字典进行排序，然后遍历,按照key的字符顺序遍历，先对dict进行排序sorted(adict)
 for key in sorted(adict):
     print(key, adict.get(key))
 

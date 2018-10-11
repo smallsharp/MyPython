@@ -6,6 +6,16 @@ Created on 2017年9月13日
 @author: cm
 '''
 
+f = open('name_age.txt')
+content = f.read() # 文件的内容一次性读完，大文件有风险
+print(content)
+f.close()
+
+
+fw = open('test.txt','w')
+fw.write('Hello World')
+fw.close()
+
 
 def readFile(file):
     with open(file, "r") as f:
@@ -36,13 +46,12 @@ def read_write(oldfile, newfile):
             line = fread.readline()
     return newfile
 
-
-if __name__ == '__main__':
-    file = './name_age.txt'
-    newfile = "age_name.txt"
-    # readFile(file=file)
-    new = read_write(file, newfile)
-    # readFile(new)
-    with open(new, "r") as f:
-        lines = f.readlines()
-        print(lines)
+# if __name__ == '__main__':
+#     file = './name_age.txt'
+#     newfile = "age_name.txt"
+#     # readFile(file=file)
+#     new = read_write(file, newfile)
+#     # readFile(new)
+#     with open(new, "r") as f:
+#         lines = f.readlines()
+#         print(lines)

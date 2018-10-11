@@ -1,7 +1,7 @@
 # coding=utf-8
 
 
-# 1. 创建一个字典，大概有如下方式
+# 1. 创建字典
 dict1 = {}  # 创建一个空字典
 dict1 = {"name": "miao", "age": 20}  # 创建一个非空字典
 dict2 = dict(name="miao", age=20)  # 通过dict函数 创建字典

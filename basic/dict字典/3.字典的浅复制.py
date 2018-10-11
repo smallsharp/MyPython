@@ -1,9 +1,6 @@
 # coding=utf-8
 
 print("")
-"""
-copy()
-"""
 
 student1 = {'小智': '1002', "info": ["man", "20", "177"]}
 student2 = student1.copy()

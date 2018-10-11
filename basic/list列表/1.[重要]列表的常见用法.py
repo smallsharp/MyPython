@@ -90,8 +90,8 @@ print(random.choice(items))
 items = [{'name': 'Homer', 'age': 39},
          {'name': 'Bart', 'age': 10},
          {"name": 'cater', 'age': 20}]
-
-items.sort(key=lambda item: item.get("age")) #用于对原列表进行重新排序，指定 key 参数，key 是匿名函数，item 是列表中的字典元素，我们根据字典中的age进行排序，默认是按升序排列，
+#用于对原列表进行重新排序，指定 key 参数，key 是匿名函数，item 是列表中的字典元素，我们根据字典中的age进行排序，默认是按升序排列，
+items.sort(key=lambda item: item.get("age"))
 print(items)
 items.sort(key=lambda item: item.get("age"), reverse=True) #指定 reverse=True 按降序排列
 print(items)

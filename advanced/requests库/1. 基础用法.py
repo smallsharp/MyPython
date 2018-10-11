@@ -47,3 +47,12 @@ print("response url:",res.url)
 
 # 12.响应的请求历史
 print("response history:",res.history)
+
+print(res.elapsed)
+print(res.elapsed.total_seconds())
+print(res.elapsed.microseconds)
+print(res.elapsed.seconds)
+print(res.elapsed.days)
+print(res.elapsed.max)
+print(res.elapsed.min)
+print(res.elapsed.resolution)

@@ -3,8 +3,8 @@
 
 """
 使用
-isinstance(x,xx)
-issubclass(x,xx) # 判断继承关系
+isinstance(x,xx) # 判断前者 是否是  后者的实例
+issubclass(x,xx) # 判断前者 是否 继承后者
 """
 
 class Animal(object):
@@ -34,3 +34,7 @@ print(Animal in Person.__bases__)  # Person 的所有父类
 
 print(issubclass(Person, Animal))  # 判断参数 class 是否是类型参数 classinfo 的子类。
 print(issubclass(Person, object))  # 判断参数 class 是否是类型参数 classinfo 的子类。
+
+
+if __name__ == '__main__':
+    print("sss")
