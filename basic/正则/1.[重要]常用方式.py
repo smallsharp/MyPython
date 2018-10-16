@@ -12,11 +12,11 @@ import re
 
 
 
-
 """
 
+
 """
-例1：实现匹配出：ifyqyqni3775084
+实战示例1：实现匹配出：ifyqyqni3775084
 """
 url = "http://news.sina.com.cn/o/2018-01-27/doc-ifyqyqni3775084.shtml"
 newurl = re.search("doc-i(.+).shtml",url)
@@ -26,17 +26,22 @@ print(newurl.group(1)) # 匹配到的括号中的字符串
 
 
 """
-例2：实现匹配：6.0
+实战示例2：实现匹配：6.0
 """
 
 temp = "ro.build.version.release=6.0"
+
+# 第一种方式
 print(temp[25:]) # 普通方式
 
+# 第二种方式
 t = temp.split("=")[1] # s.split("")
 print(t)
 
+# 第三种方式
 s = re.search(pattern="=(.*)",string=temp) # 使用re.search()
 print(s.group(1))
 
+# 第四种方式
 s = re.findall(pattern="=(.*)",string=temp) # 使用re.findall()
 print(s)
