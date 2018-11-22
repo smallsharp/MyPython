@@ -1,0 +1,1 @@
+{'startTime': 1541499988, 'endTime': 1541499994, 'total': 1, 'pass': 1, 'fail': 0, 'detail': [{'suiteId': '1007', 'suiteName': '添加收入记账单', 'result': True}]}
