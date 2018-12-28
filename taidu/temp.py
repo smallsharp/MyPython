@@ -1,2 +1,2 @@
-print(int(0))
-
+def temp():
+    pass

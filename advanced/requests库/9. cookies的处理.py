@@ -1,5 +1,12 @@
 import requests
 
+"""
+cookies使用
+print(res.cookies.get_dict())
+cookies = res.cookies.get_dict()
+"""
+
+
 
 cookies = None
 
@@ -13,6 +20,7 @@ def updateCookies():
     url = 'https://apibeta.yunchehome.com/user/login'
     data = {"mobile": "18516213133", "password": "123456", "captcha": ""}
     res = requests.post(url, json=data)
+    print(res.cookies.get_dict())
     cookies = res.cookies
     return cookies
 
@@ -41,7 +49,7 @@ def addIncome():
 
 
 def main():
-    for i in range(101):
+    for i in range(1):
         print(i)
         addIncome()
 

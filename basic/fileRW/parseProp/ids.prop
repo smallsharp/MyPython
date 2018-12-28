@@ -1,0 +1,7 @@
+[login]
+user = com.tude.android/et_phoneNumber
+pwd = com.tude.android/et_password
+名字 = 张平平
+
+[logout]
+logoutId=com.tude.android/btn_loginout
