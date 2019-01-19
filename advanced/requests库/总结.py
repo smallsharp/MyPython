@@ -72,7 +72,7 @@ import requests
                 - base64("用户:密码")
                 - "Basic base64("用户|密码")"
                 - 请求头：
-                    Authorization： "basic base64("用户|密码")"
+                    Authorization： "基础篇 base64("用户|密码")"
 
         from requests.auth import HTTPBasicAuth, HTTPDigestAuth
 

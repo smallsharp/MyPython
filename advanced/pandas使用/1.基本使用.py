@@ -20,9 +20,9 @@ type(oo)  # <class 'pandas.core.frame.DataFrame'>
 多列时，数据类型为：<class 'pandas.core.frame.DataFrame'>
 只一列，数据类型为：<class 'pandas.core.series.Series'>
 """
-n1 = oo[["City","Sport","Event"]] #<class 'pandas.core.frame.DataFrame'>
-n2 = oo["City"] # <class 'pandas.core.series.Series'>
-print(type(n1),type(n2))
+n1 = oo[["City", "Sport", "Event"]]  # <class 'pandas.core.frame.DataFrame'>
+n2 = oo["City"]  # <class 'pandas.core.series.Series'>
+print(type(n1), type(n2))
 
 # print(n1.tail())
 # print(n2.tail())
@@ -31,10 +31,7 @@ print(type(n1),type(n2))
 """
 3.Series
 每一列都是Series，每一行也都是Series，类似数组序列
-"""
-
-"""
-3.1 获取其中一列数据,两种方式
+ - 3.1 获取其中一列数据,两种方式
 如：oo.City 或 oo["City"]
 """
 # print(oo.City)
@@ -42,8 +39,7 @@ print(type(n1),type(n2))
 type(oo.City)  # <class 'pandas.core.series.Series'>
 
 """
-3.2 获取其中一行数据
-如：row = oo.iloc[2] 获取索引为2的一行数据
+ - 3.2 获取其中一行数据，如：row = oo.iloc[2] 获取索引为2的一行数据
 """
 row = oo.iloc[2]  # 获取其中一行数据,索引为列名称，值为行内容
 """
@@ -59,8 +55,7 @@ Event_gender                             M
 Medal                               Bronze
 Name: 2, dtype: object"""
 
-type(row) # <class 'pandas.core.series.Series'>
-
+type(row)  # <class 'pandas.core.series.Series'>
 
 """
 4. 显示文件内容，使用head(),tail()
@@ -92,10 +87,9 @@ dtypes: int64(1), object(9)
 memory usage: 2.2+ MB
 None"""
 
-
 """
 6.Shape
 """
-print(oo.shape) # (29216, 10) 行,列
+print(oo.shape)  # (29216, 10) 行,列
 oo.shape[0]
 oo.shape[1]
