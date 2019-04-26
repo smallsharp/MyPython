@@ -4,8 +4,7 @@ student1 = {'小智': '1002', "info": ["man", "20", "177"]}
 
 """
 1.get(key,default=None)方法
-通过key，查找value，未找到返回None
-可以设置default值
+通过key，查找value，没有找到指定key时，默认返回None,可以设置default值
 """
 
 print(student1.get("小智"))
@@ -82,7 +81,6 @@ st4 = dict.fromkeys(seq2)
 print(st4)  # {'h': None, 'e': None, 'l': None, 'o': None}
 
 # 8.3 传入字典
-seq3 ={1:'one',2:'two'}
+seq3 = {1: 'one', 2: 'two'}
 st4 = dict.fromkeys(seq3)
 print(st4)  # {1: None, 2: None}
-

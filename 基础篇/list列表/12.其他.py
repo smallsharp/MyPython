@@ -4,3 +4,5 @@ print(arr[-1])
 print(arr.pop())
 print(arr)
 
+
+print(dir(arr))

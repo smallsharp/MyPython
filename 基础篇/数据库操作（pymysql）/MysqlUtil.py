@@ -3,8 +3,7 @@ from pymysql import cursors
 
 
 class MysqlUtil:
-
-    def __init__(self, host, user, password, database, charset):
+    def __init__(self, host, user, password, database, charset='utf8'):
         self.host = host
         self.user = user
         self.password = password
@@ -13,22 +12,26 @@ class MysqlUtil:
         self.db = None
         self.curs = None
         self.open()
+
     # 数据库连接
     def open(self):
         # 执行返回数据类型为字典：cursorclass =cursors.DictCursor
-        self.db = ps.connect(host=self.host, user=self.user, password=self.password,database=self.database, charset=self.charset,cursorclass =cursors.DictCursor)
+        self.db = ps.connect(host=self.host, user=self.user, password=self.password, database=self.database,
+                             charset=self.charset, cursorclass=cursors.DictCursor)
         self.curs = self.db.cursor()
+
     # 数据库关闭
     def close(self):
         self.curs.close()
         self.db.close()
+
     # 数据增删改
     def runCud(self, sql, params):
         try:
             self.curs.execute(sql, params)
             self.db.commit()
             print("ok")
-        except :
+        except:
             print('cud出现错误')
             self.db.rollback()
 
@@ -37,7 +40,7 @@ class MysqlUtil:
         try:
             self.curs.execute(sql, params)
             result = self.curs.fetchall()
-#             self.close()
+            #             self.close()
             print("query success")
             return result
         except:

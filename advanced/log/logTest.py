@@ -38,5 +38,4 @@ logging.warning('this is a warning message!')
 logging.error('this is a error message!')
 logging.critical('this is a critical message!')
 
-
 # https://www.cnblogs.com/Nicholas0707/p/9021672.html

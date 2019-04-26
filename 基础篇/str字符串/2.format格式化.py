@@ -22,8 +22,6 @@ cmd = ('pm clear {package}'.format(package=package))
 print(cmd)  # pm clear com.tude.android
 
 
-
-
 # >代表右对齐，>前面 是要填充的字符
 for i in [1, 19, 256]:
     print('The index is {:0>6d}'.format(i))  # 000001,000019, 000256

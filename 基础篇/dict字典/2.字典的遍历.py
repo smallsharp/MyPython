@@ -11,9 +11,10 @@ for key in adict:
 for key, value in adict.items():
     print(key, value)
 
-# 3. 单独遍历key 或者 value
+# 3. 单独遍历key
 for key in adict.keys():
     print(key)
 
+# 4. 单独遍历value
 for value in adict.values():
     print(value)

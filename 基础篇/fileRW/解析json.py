@@ -12,7 +12,16 @@ import json
 data = {
     'retCode': 200,
     'retMsg': 'success',
-    'retData': ''
+    'retData': [
+        {
+            'user': 'lk',
+            'age': 22
+        },
+        {
+            'user': 'zz',
+            'age': 33
+        }
+    ]
 }
 
 print(type(data))  # dict

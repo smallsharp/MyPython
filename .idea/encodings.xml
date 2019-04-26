@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/基础篇/fileRW/report.txt" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/基础篇/fileRW/test.json" charset="GBK" />
     <file url="file://$PROJECT_DIR$/基础篇/str字符串/4.字符串不可变.py" charset="GBK" />
   </component>
 </project>

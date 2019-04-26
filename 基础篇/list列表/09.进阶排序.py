@@ -39,4 +39,5 @@ newlist = sorted(mylist, key=getKey, reverse=True)
 print(mylist)
 print(newlist)
 
-
+# 使用lambda
+print(sorted(mylist, key=lambda x: x['total'], reverse=True))
