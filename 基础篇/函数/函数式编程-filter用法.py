@@ -7,8 +7,9 @@ r = filter(lambda x: True if x != 0 else False, list_x)
 
 print(list(r))
 
-list_y = ['a', "B", 'ss', 'Tom', 'xx']
+## 需求：过滤大于4的数据
+list_y = [2, 4, 6, 8, 10]
 
-r = filter(lambda x: x, list_y)
+new_list = filter(lambda x: x > 4, list_y)
 
-print(list(r))
+print(list(new_list))

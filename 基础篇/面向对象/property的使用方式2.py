@@ -5,6 +5,7 @@ class Person(object):
 
     @property
     def age(self):
+        print('get')
         return self.__age
 
     @age.setter
@@ -16,5 +17,4 @@ class Person(object):
 p = Person()
 print(p.age)
 p.age = 20
-
 print(p.age)

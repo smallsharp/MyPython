@@ -1,0 +1,8 @@
+# MONGO_URL = 'localhost'
+MONGO_URL = '192.168.40.32'
+MONGO_DB = 'test'
+MONGO_TABLE = 'toutiao'
+
+GROUP_START = 1
+GROUP_END = 20
+KEYWORD='街拍'

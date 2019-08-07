@@ -315,27 +315,27 @@
 # A()
 
 
-class D(object):
-    def __init__(self):
-        print("d")
-
-class B(D):
-    def __init__(self):
-        # super().__init__()
-        super(B, self).__init__()
-        print("b")
-
-class C(D):
-    def __init__(self):
-        # super().__init__()
-        super(C, self).__init__()
-        print("c")
-
-class A(B, C):
-    def __init__(self):
-        # super().__init__()
-        B.__init__(self)
-        C.__init__(self)
-        print("a")
-A()
-print(A.mro())
+# class D(object):
+#     def __init__(self):
+#         print("d")
+#
+# class B(D):
+#     def __init__(self):
+#         # super().__init__()
+#         super(B, self).__init__()
+#         print("b")
+#
+# class C(D):
+#     def __init__(self):
+#         # super().__init__()
+#         super(C, self).__init__()
+#         print("c")
+#
+# class A(B, C):
+#     def __init__(self):
+#         # super().__init__()
+#         B.__init__(self)
+#         C.__init__(self)
+#         print("a")
+# A()
+# print(A.mro())

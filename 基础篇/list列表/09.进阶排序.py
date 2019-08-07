@@ -1,27 +1,19 @@
 mylist = [
     {
         "companyName": "上海雷凌信息科技有限公司",
-        "total": 1.1,
-        "yearActDays": 8,
-        "yearExpDays": 25
+        "total": 1.1
     },
     {
         "companyName": "上海载德物流有限公司",
-        "total": 0.4,
-        "yearActDays": 9,
-        "yearExpDays": 29.04
+        "total": 0.4
     },
     {
         "companyName": "上海云视科技股份有限公司",
-        "total": 0.5,
-        "yearActDays": 162,
-        "yearExpDays": 31
+        "total": 0.5
     },
     {
         "companyName": "北京百度网讯科技有限公司",
-        "total": 1.2,
-        "yearActDays": 30,
-        "yearExpDays": 15
+        "total": 1.2
     }
 ]
 

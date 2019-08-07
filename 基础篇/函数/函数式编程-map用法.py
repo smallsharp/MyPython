@@ -6,7 +6,7 @@ def square(x):
     return x ** 2
 
 
-list_x = [1, 2, 3, 4, 5, 6, 7]
+list_x = [1, 2, 3, 4, 5, 6]
 
 # for i, x in enumerate(list_x):
 #     list_x[i] = square(x)
@@ -16,16 +16,16 @@ list_x = [1, 2, 3, 4, 5, 6, 7]
 
 # 2. 使用map实现,集合中的每个元素，都进行映射(square)操作
 
-r = map(square, list_x)
-print(list(r))
+new_list = map(square, list_x)
+print(list(new_list))
 
 # 3. 使用map结合lambda使用
-r = map(lambda x: x ** 2, list_x)
-print(list(r))
+new_list = map(lambda x: x ** 2, list_x)
+print(list(new_list))
 
 # 4. 多参数的场景，注意多个参数时，长度不一致的情形
 list_x = [1, 2, 3, 4, 5, 6, 7]
 list_y = [1, 2, 3, 4, 5]
 
-r = map(lambda x, y: x + y, list_x, list_y)
+new_list = map(lambda x, y: x + y, list_x, list_y)
 # print(list(r)) # [2, 4, 6, 8, 10]

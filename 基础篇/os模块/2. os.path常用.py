@@ -1,4 +1,4 @@
-#coding=utf-8
+# coding=utf-8
 
 import os
 
@@ -41,4 +41,4 @@ print(os.path.exists(p))
 adb_path = os.path.join(os.environ["ANDROID_HOME"], "platform-tools", "adb.exe")
 
 adb_path2 = os.path.abspath(adb_path)
-print(adb_path,adb_path2)
+print(adb_path, adb_path2)

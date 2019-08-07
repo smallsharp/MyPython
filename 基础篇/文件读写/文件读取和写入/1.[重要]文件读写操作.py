@@ -6,15 +6,14 @@ Created on 2017年9月13日
 @author: cm
 '''
 
-f = open('name_age.txt')
-content = f.read() # 文件的内容一次性读完，大文件有风险
-print(content)
-f.close()
-
-
-fw = open('test.txt','w')
-fw.write('Hello World')
-fw.close()
+# f = open('name_age.txt')
+# content = f.read()  # 文件的内容一次性读完，大文件有风险
+# print(content)
+# f.close()
+#
+# fw = open('hello.txt', 'w')
+# fw.write('Hello World')
+# fw.close()
 
 
 def readFile(file):
@@ -38,20 +37,19 @@ def readFile(file):
 
 
 def read_write(oldfile, newfile):
-    with open(file=oldfile, mode="r") as fread, open(file=newfile, mode="w") as fwrite:
-        line = fread.readline()
+    with open(file=oldfile, mode="r") as file_read, open(file=newfile, mode="w") as file_write:
+        line = file_read.readline()
         while line:
             name, age = line.rstrip().split(",")
-            fwrite.write("{},{}\n".format(age, name))  # 写的核心代码
-            line = fread.readline()
+            file_write.write("{},{}\n".format(age, name))  # 写的核心代码
+            line = file_read.readline()
     return newfile
 
-# if __name__ == '__main__':
-#     file = './name_age.txt'
-#     newfile = "age_name.txt"
-#     # readFile(file=file)
-#     new = read_write(file, newfile)
-#     # readFile(new)
-#     with open(new, "r") as f:
-#         lines = f.readlines()
-#         print(lines)
+
+# with open("name_age.txt", "r") as f:
+#     lines = f.readlines()
+#     for line in lines:
+#         name, age = line.rstrip().split(",")
+#         print("{} is {} years old.".format(name, age))
+
+read_write("age_name.txt","name_age.txt")

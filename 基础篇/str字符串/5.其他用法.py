@@ -15,3 +15,7 @@ print(str.find("name"))  # -1
 
 n = ','.join(str)
 print(n, type(n))
+
+
+str1 = "tom"
+print(str1.title()) #Tom

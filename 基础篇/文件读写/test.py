@@ -1,4 +1,4 @@
-from 基础篇.fileRW.parseProp.parseTest import ReadConfig
+from 基础篇.文件读写.parseProp.parseTest import ReadConfig
 import os
 
 PATH = lambda p: os.path.abspath(

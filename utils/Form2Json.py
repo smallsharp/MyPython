@@ -6,6 +6,9 @@
 import requests
 
 
+def test():
+    print("test...")
+
 def str2dict(str_f):
     dictF = dict()
     list_one = str_f.split('&')

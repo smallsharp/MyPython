@@ -1,41 +1,38 @@
 # coding=utf-8
 
-score = 88
-
-class A:
+class MyClass:
     num = 100
-    # print(num) # num.pri
+    print("00000")  # 只会执行一次
 
-    def fun1(self):
-        print("fun1，and num:", self.num, score)
+    def func_nomal(self):
+        print("this is nomal func，and num:", self.num)
 
     @classmethod
-    def fun2(cls):
-        print("fun2，and num:", cls.num)
+    def func_cls(cls):
+        print("this is class func，and num:", cls.num)
 
     @staticmethod
-    def fun3():
-        print("fun3")
+    def func_static():
+        print("this is static func and num：", MyClass.num)
 
 
-# print(A.num)
+"""实例方法(self)，类不可直接访问"""
+# MyClass.func_nomal()   TypeError: func_nomal() missing 1 required positional argument: 'self'
 
-"""
-实例方法(self)，类不可直接访问
-"""
-# A.fun1()
-a = A()
-a.fun1()
-a.fun2()  # 类方法，实例对象也可访问
-a.fun3()  # 静态方法，实例对象也可访问
+a = MyClass()
+a.func_nomal()
 
-"""
-类方法（cls，classmethod修饰），可以访问类中变量,需要传递类指针（cls）
-"""
-# A.fun2()
+"""类方法（cls，classmethod修饰），可以访问类中变量,需要传递类指针（cls）"""
+MyClass.func_cls()
 
+"""静态方法（staticmethod修饰），不能访问类中变量"""
+MyClass.func_static()
 
-"""
-静态方法（staticmethod修饰），不能访问类中变量
-"""
-# A.fun3()
+'''注意'''
+a.func_cls()  # 类方法，实例对象也可访问
+a.func_static()  # 静态方法，实例对象也可访问
+
+b = MyClass()
+b.func_nomal()
+
+print(MyClass.__dict__)
