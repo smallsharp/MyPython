@@ -6,7 +6,7 @@ d['a'].append(1)
 d['a'].append(2)
 d['b'].append(4)
 
-# print(d)
+print(d)
 
 for k, v in d.items():
     print(k, v)

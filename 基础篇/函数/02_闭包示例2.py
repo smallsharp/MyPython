@@ -18,11 +18,11 @@ def outer(x):
 
 
 if __name__ == '__main__':
-    # 给test函数赋值，这个20就是给参数number
+    # x
     ret = outer(20)
 
-    # 注意这里的100其实给参数number_in
+    # y
     print(ret(100))
 
-    # 注意这里的200其实给参数number_in
+    # y
     print(ret(200))

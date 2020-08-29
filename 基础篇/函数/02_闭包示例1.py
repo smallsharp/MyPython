@@ -10,8 +10,11 @@ def outer(x):
     y = 10
 
     def inner():
-        print(x + y)  # 在内函数中 用到了外函数的临时变量
+    	nonlocal y
+        # print(f"{x},{y}")  # 在内函数中 用到了外函数的临时变量
         # return x + y
+        y = y+x
+        return y
 
     return inner
 

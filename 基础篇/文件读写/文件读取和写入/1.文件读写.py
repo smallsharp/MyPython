@@ -6,6 +6,7 @@ Created on 2017年9月13日
 @author: cm
 '''
 
+
 # f = open('name_age.txt')
 # content = f.read()  # 文件的内容一次性读完，大文件有风险
 # print(content)
@@ -52,4 +53,13 @@ def read_write(oldfile, newfile):
 #         name, age = line.rstrip().split(",")
 #         print("{} is {} years old.".format(name, age))
 
-read_write("age_name.txt","name_age.txt")
+# read_write("age_name.txt","name_age.txt")
+
+with open('name_age.txt', 'r') as f:
+    while True:
+        # Return the next item from the iterator. If default is given and the iterator is exhausted,
+        # it is returned instead of raising StopIteration.
+        line = next(f, None)
+        if line is None:
+            break
+        print(line)

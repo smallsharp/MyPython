@@ -14,3 +14,11 @@ print(list(iter_gen))
 # 3. 如果需要生成 字典 只需要把[]换成{}
 square_dict = {x: x ** 2 for x in range(5)}  # {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}
 # print(square_dict,type(square_dict),end="\n")
+
+
+print([m + n for m in 'ABC' for n in 'XYZ'])
+
+import os # 导入os模块，模块的概念后面讲到
+
+print([d for d in os.listdir('.')])
+print(os.listdir('.'))

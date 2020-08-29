@@ -19,5 +19,5 @@ print(dlist)
 
 print("第四种：列表自身切片")
 s = ["zhangsan", "wangwu", "lisi"]
-flist = s[1:]
+flist = s[:]
 print(flist)
